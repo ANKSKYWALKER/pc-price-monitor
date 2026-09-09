@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>鐢佃剳閰嶄欢浠锋牸鐩戞帶鐪嬫澘</title>
+<title>电脑配件价格监控看板</title>
 <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 <script src="data.js"></script>
 <style>
@@ -89,7 +89,7 @@
   }
   .chart-container { width: 100%; height: 380px; }
   .chart-container.tall { height: 420px; }
-  /* 娑ㄨ穼琛ㄦ牸 */
+  /* 涨跌表格 */
   .rank-table {
     width: 100%;
     border-collapse: collapse;
@@ -127,9 +127,9 @@
     padding: 40px 0;
     font-size: 14px;
   }
-  /* 琛ㄦ牸妯悜婊氬姩(鎵嬫満) */
+  /* 表格横向滚动(手机) */
   .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  /* ===== 绉诲姩绔€傞厤 ===== */
+  /* ===== 移动端适配 ===== */
   @media (max-width: 768px) {
     body { padding: 10px; }
     .header { padding: 14px 16px; }
@@ -157,53 +157,53 @@
 <body>
 
 <div class="header">
-  <h1>鐢佃剳閰嶄欢浠锋牸鐩戞帶鐪嬫澘</h1>
-  <div class="update-time">鏈€鍚庢洿鏂? <span id="lastUpdate">--</span></div>
+  <h1>电脑配件价格监控看板</h1>
+  <div class="update-time">最后更新: <span id="lastUpdate">--</span></div>
 </div>
 
 <div class="stats-bar" id="statsBar"></div>
 
-<!-- 妯″潡涓€: 浠婃棩娑ㄨ穼鎺掕 -->
+<!-- 模块一: 今日涨跌排行 -->
 <div class="module">
   <div class="module-title">
-    <span>妯″潡涓€ 路 浠婃棩娑ㄨ穼鎺掕</span>
-    <span style="font-size:12px;color:#888;font-weight:400;">瀵规瘮鏈€杩戜袱娆℃姄鍙?/span>
+    <span>模块一 · 今日涨跌排行</span>
+    <span style="font-size:12px;color:#888;font-weight:400;">对比最近两次抓取</span>
   </div>
   <div id="rankChart" class="chart-container"></div>
   <div id="rankTableWrap"></div>
 </div>
 
-<!-- 妯″潡浜? 浠锋牸璧板娍鏇茬嚎 -->
+<!-- 模块二: 价格走势曲线 -->
 <div class="module">
   <div class="module-title">
-    <span>妯″潡浜?路 浠锋牸璧板娍鏇茬嚎</span>
+    <span>模块二 · 价格走势曲线</span>
     <div class="controls">
-      <select id="categorySelect"><option value="">鍏ㄩ儴鍝佺被</option></select>
-      <select id="modelSelect"><option value="">璇烽€夋嫨鍨嬪彿</option></select>
-      <button id="btn7d" class="active" onclick="setRange(7)">杩?澶?/button>
-      <button id="btn30d" onclick="setRange(30)">杩?0澶?/button>
+      <select id="categorySelect"><option value="">全部品类</option></select>
+      <select id="modelSelect"><option value="">请选择型号</option></select>
+      <button id="btn7d" class="active" onclick="setRange(7)">近7天</button>
+      <button id="btn30d" onclick="setRange(30)">近30天</button>
     </div>
   </div>
   <div id="trendChart" class="chart-container tall"></div>
 </div>
 
-<!-- 妯″潡涓? 璺ㄥ钩鍙板姣?-->
+<!-- 模块三: 跨平台对比 -->
 <div class="module">
   <div class="module-title">
-    <span>妯″潡涓?路 璺ㄥ钩鍙颁环鏍煎姣?/span>
+    <span>模块三 · 跨平台价格对比</span>
     <div class="controls">
-      <select id="compareModelSelect"><option value="">璇烽€夋嫨鍨嬪彿</option></select>
+      <select id="compareModelSelect"><option value="">请选择型号</option></select>
     </div>
   </div>
   <div id="compareChart" class="chart-container"></div>
 </div>
 
-<!-- 妯″潡鍥? 鍘嗗彶鏈€浣?鏈€楂樹环 -->
+<!-- 模块四: 历史最低/最高价 -->
 <div class="module">
   <div class="module-title">
-    <span>妯″潡鍥?路 鍘嗗彶鏈€浣?/ 鏈€楂樹环鍖洪棿</span>
+    <span>模块四 · 历史最低 / 最高价区间</span>
     <div class="controls">
-      <select id="rangeCategorySelect"><option value="">鍏ㄩ儴鍝佺被</option></select>
+      <select id="rangeCategorySelect"><option value="">全部品类</option></select>
     </div>
   </div>
   <div id="rangeChart" class="chart-container tall"></div>
@@ -212,19 +212,19 @@
 
 <script>
 // ============================================================
-// 鏁版嵁鍔犺浇涓庨澶勭悊
+// 数据加载与预处理
 // ============================================================
 const RAW = window.PRICE_DATA || { latest: null, history: [] };
 const latest = RAW.latest || { fetch_time: "", items: [] };
 const history = RAW.history || [];
 
-// 骞冲彴閰嶈壊
+// 平台配色
 const PLATFORM_COLORS = {
-  "浜笢": "#e53935",
-  "浠€涔堝€煎緱涔?: "#fb8c00",
-  "娣樺疂": "#ff7043",
-  "澶╃尗": "#f06292",
-  "鎷煎澶?: "#d81b60",
+  "京东": "#e53935",
+  "什么值得买": "#fb8c00",
+  "淘宝": "#ff7043",
+  "天猫": "#f06292",
+  "拼多多": "#d81b60",
 };
 const DEFAULT_COLORS = ["#1a237e","#00897b","#5e35b1","#00acc1","#6d4c41","#546e7a"];
 
@@ -246,7 +246,7 @@ function platformColor(p) {
 }
 
 // ============================================================
-// 椤堕儴鏇存柊鏃堕棿 + 缁熻鍗＄墖
+// 顶部更新时间 + 统计卡片
 // ============================================================
 document.getElementById("lastUpdate").textContent = fmtTime(latest.fetch_time);
 
@@ -256,7 +256,7 @@ document.getElementById("lastUpdate").textContent = fmtTime(latest.fetch_time);
   const failed = items.length - success;
   const avgPrice = items.filter(i => i.price > 0).reduce((s,i) => s + i.price, 0) / (success || 1);
 
-  // 璁＄畻娑ㄨ穼
+  // 计算涨跌
   let up = 0, down = 0, flat = 0;
   if (history.length >= 2) {
     const cur = history[history.length - 1].items;
@@ -274,15 +274,15 @@ document.getElementById("lastUpdate").textContent = fmtTime(latest.fetch_time);
 
   const bar = document.getElementById("statsBar");
   bar.innerHTML = `
-    <div class="stat-card"><div class="label">鐩戞帶SKU鎬绘暟</div><div class="value">${items.length}</div></div>
-    <div class="stat-card"><div class="label">鎶撳彇鎴愬姛</div><div class="value" style="color:#43a047">${success}</div></div>
-    <div class="stat-card"><div class="label">鎶撳彇澶辫触</div><div class="value" style="color:#e53935">${failed}</div></div>
-    <div class="stat-card"><div class="label">涓婃定 / 涓嬭穼 / 鎸佸钩</div><div class="value"><span class="up">${up}鈫?/span> / <span class="down">${down}鈫?/span> / <span class="flat">${flat}-</span></div></div>
+    <div class="stat-card"><div class="label">监控SKU总数</div><div class="value">${items.length}</div></div>
+    <div class="stat-card"><div class="label">抓取成功</div><div class="value" style="color:#43a047">${success}</div></div>
+    <div class="stat-card"><div class="label">抓取失败</div><div class="value" style="color:#e53935">${failed}</div></div>
+    <div class="stat-card"><div class="label">上涨 / 下跌 / 持平</div><div class="value"><span class="up">${up}↑</span> / <span class="down">${down}↓</span> / <span class="flat">${flat}-</span></div></div>
   `;
 })();
 
 // ============================================================
-// 妯″潡涓€: 浠婃棩娑ㄨ穼鎺掕
+// 模块一: 今日涨跌排行
 // ============================================================
 const rankChart = echarts.init(document.getElementById("rankChart"));
 
@@ -290,7 +290,7 @@ function renderRank() {
   if (history.length < 2) {
     document.getElementById("rankChart").style.display = "none";
     document.getElementById("rankTableWrap").innerHTML =
-      '<div class="empty-tip">鍘嗗彶鏁版嵁涓嶈冻涓ゆ鎶撳彇锛屾棤娉曡绠楁定璺屻€傝鑷冲皯杩愯涓ゆ鎶撳彇鑴氭湰銆?/div>';
+      '<div class="empty-tip">历史数据不足两次抓取，无法计算涨跌。请至少运行两次抓取脚本。</div>';
     return;
   }
   document.getElementById("rankChart").style.display = "";
@@ -317,16 +317,17 @@ function renderRank() {
     });
   });
 
-  // 鎸夋定璺屽箙闄嶅簭
+  // 按涨跌幅降序
   rows.sort((a, b) => b.pct - a.pct);
 
   if (rows.length === 0) {
     document.getElementById("rankTableWrap").innerHTML =
-      '<div class="empty-tip">鏃犳湁鏁堜环鏍煎姣旀暟鎹?/div>';
+      '<div class="empty-tip">无有效价格对比数据</div>';
     return;
   }
 
-  // 鏌辩姸鍥?  const labels = rows.map(r => r.model + "(" + r.platform + ")");
+  // 柱状图
+  const labels = rows.map(r => r.model + "(" + r.platform + ")");
   const values = rows.map(r => +r.pct.toFixed(2));
   const colors = values.map(v => v >= 0 ? "#e53935" : "#43a047");
 
@@ -338,15 +339,15 @@ function renderRank() {
         const p = params[0];
         const r = rows[p.dataIndex];
         return `<b>${r.model}</b> (${r.platform})<br/>` +
-          `涓婃: 楼${r.prevPrice.toFixed(2)}<br/>` +
-          `鏈: 楼${r.curPrice.toFixed(2)}<br/>` +
-          `娑ㄨ穼: 楼${r.diff >= 0 ? "+" : ""}${r.diff.toFixed(2)} (${r.pct >= 0 ? "+" : ""}${r.pct.toFixed(2)}%)`;
+          `上次: ¥${r.prevPrice.toFixed(2)}<br/>` +
+          `本次: ¥${r.curPrice.toFixed(2)}<br/>` +
+          `涨跌: ¥${r.diff >= 0 ? "+" : ""}${r.diff.toFixed(2)} (${r.pct >= 0 ? "+" : ""}${r.pct.toFixed(2)}%)`;
       }
     },
     grid: { left: 100, right: 40, top: 20, bottom: 60 },
     xAxis: {
       type: "value",
-      name: "娑ㄨ穼骞?%)",
+      name: "涨跌幅(%)",
       axisLabel: { formatter: "{value}%" },
     },
     yAxis: {
@@ -368,21 +369,21 @@ function renderRank() {
     dataZoom: [{ type: "slider", yAxisIndex: 0, filterMode: "filter", width: 16, right: 10 }],
   });
 
-  // 琛ㄦ牸
+  // 表格
   let html = '<table class="rank-table"><thead><tr>' +
-    "<th>鎺掑悕</th><th>鍝佺被</th><th>鍨嬪彿</th><th>骞冲彴</th>" +
-    "<th>涓婃浠锋牸</th><th>鏈浠锋牸</th><th>娑ㄨ穼棰?/th><th>娑ㄨ穼骞?/th>" +
+    "<th>排名</th><th>品类</th><th>型号</th><th>平台</th>" +
+    "<th>上次价格</th><th>本次价格</th><th>涨跌额</th><th>涨跌幅</th>" +
     "</tr></thead><tbody>";
   rows.forEach((r, i) => {
     const cls = r.pct > 0.01 ? "change-up" : (r.pct < -0.01 ? "change-down" : "change-flat");
-    const arrow = r.pct > 0.01 ? "鈫? : (r.pct < -0.01 ? "鈫? : "-");
+    const arrow = r.pct > 0.01 ? "↑" : (r.pct < -0.01 ? "↓" : "-");
     html += `<tr>
       <td>${i+1}</td>
       <td>${r.category}</td>
       <td>${r.model}</td>
       <td>${r.platform}</td>
-      <td>楼${r.prevPrice.toFixed(2)}</td>
-      <td>楼${r.curPrice.toFixed(2)}</td>
+      <td>¥${r.prevPrice.toFixed(2)}</td>
+      <td>¥${r.curPrice.toFixed(2)}</td>
       <td class="${cls}">${r.diff >= 0 ? "+" : ""}${r.diff.toFixed(2)}</td>
       <td class="${cls}">${arrow} ${r.pct >= 0 ? "+" : ""}${r.pct.toFixed(2)}%</td>
     </tr>`;
@@ -392,12 +393,12 @@ function renderRank() {
 }
 
 // ============================================================
-// 妯″潡浜? 浠锋牸璧板娍鏇茬嚎
+// 模块二: 价格走势曲线
 // ============================================================
 const trendChart = echarts.init(document.getElementById("trendChart"));
 let currentRange = 7;
 
-// 鏀堕泦鎵€鏈夊搧绫诲拰鍨嬪彿
+// 收集所有品类和型号
 const allCategories = [...new Set((latest.items || []).map(i => i.category))];
 const allModels = [...new Set((latest.items || []).map(i => i.model))];
 
@@ -417,7 +418,7 @@ allModels.forEach(m => {
 
 catSel.addEventListener("change", function() {
   const cat = this.value;
-  modelSel.innerHTML = '<option value="">璇烽€夋嫨鍨嬪彿</option>';
+  modelSel.innerHTML = '<option value="">请选择型号</option>';
   const models = cat
     ? [...new Set((latest.items || []).filter(i => i.category === cat).map(i => i.model))]
     : allModels;
@@ -440,14 +441,15 @@ function renderTrend() {
   const model = modelSel.value;
   if (!model) {
     trendChart.clear();
-    trendChart.setOption({ title: { text: "璇烽€夋嫨鍨嬪彿鏌ョ湅浠锋牸璧板娍", left: "center", top: "center", textStyle: { color: "#999", fontSize: 14 } } });
+    trendChart.setOption({ title: { text: "请选择型号查看价格走势", left: "center", top: "center", textStyle: { color: "#999", fontSize: 14 } } });
     return;
   }
 
   const now = new Date();
   const cutoff = new Date(now.getTime() - currentRange * 86400000);
 
-  // 浠庡巻鍙蹭腑绛涢€夎鍨嬪彿鐨勬墍鏈夊钩鍙版暟鎹?  const platformData = {}; // platform -> [{time, price}]
+  // 从历史中筛选该型号的所有平台数据
+  const platformData = {}; // platform -> [{time, price}]
   history.forEach(record => {
     const rt = new Date(record.fetch_time);
     if (rt < cutoff) return;
@@ -462,11 +464,11 @@ function renderTrend() {
   const platforms = Object.keys(platformData);
   if (platforms.length === 0) {
     trendChart.clear();
-    trendChart.setOption({ title: { text: "璇ュ瀷鍙锋殏鏃犲巻鍙蹭环鏍兼暟鎹?, left: "center", top: "center", textStyle: { color: "#999", fontSize: 14 } } });
+    trendChart.setOption({ title: { text: "该型号暂无历史价格数据", left: "center", top: "center", textStyle: { color: "#999", fontSize: 14 } } });
     return;
   }
 
-  // 鎵€鏈夋椂闂寸偣
+  // 所有时间点
   const allTimes = new Set();
   platforms.forEach(p => platformData[p].forEach(d => allTimes.add(d.time)));
   const xTimes = [...allTimes].sort();
@@ -493,7 +495,7 @@ function renderTrend() {
       formatter: function(params) {
         let html = fmtTime(params[0].axisValue) + "<br/>";
         params.forEach(p => {
-          if (p.value != null) html += `${p.marker}${p.seriesName}: 楼${p.value.toFixed(2)}<br/>`;
+          if (p.value != null) html += `${p.marker}${p.seriesName}: ¥${p.value.toFixed(2)}<br/>`;
         });
         return html;
       }
@@ -507,22 +509,23 @@ function renderTrend() {
     },
     yAxis: {
       type: "value",
-      name: "浠锋牸(楼)",
-      axisLabel: { formatter: "楼{value}" },
+      name: "价格(¥)",
+      axisLabel: { formatter: "¥{value}" },
     },
     series: series,
   }, true);
 }
 
 // ============================================================
-// 妯″潡涓? 璺ㄥ钩鍙板姣?// ============================================================
+// 模块三: 跨平台对比
+// ============================================================
 const compareChart = echarts.init(document.getElementById("compareChart"));
 
 function renderCompare() {
   const model = cmpModelSel.value;
   if (!model) {
     compareChart.clear();
-    compareChart.setOption({ title: { text: "璇烽€夋嫨鍨嬪彿杩涜璺ㄥ钩鍙板姣?, left: "center", top: "center", textStyle: { color: "#999", fontSize: 14 } } });
+    compareChart.setOption({ title: { text: "请选择型号进行跨平台对比", left: "center", top: "center", textStyle: { color: "#999", fontSize: 14 } } });
     return;
   }
 
@@ -532,7 +535,7 @@ function renderCompare() {
   if (valid.length === 0) {
     compareChart.clear();
     const failedList = items.map(i => `${i.platform}(${i.status})`).join(", ");
-    compareChart.setOption({ title: { text: "璇ュ瀷鍙锋殏鏃犳湁鏁堜环鏍兼暟鎹甛n" + (failedList || ""), left: "center", top: "center", textStyle: { color: "#999", fontSize: 13 } } });
+    compareChart.setOption({ title: { text: "该型号暂无有效价格数据\n" + (failedList || ""), left: "center", top: "center", textStyle: { color: "#999", fontSize: 13 } } });
     return;
   }
 
@@ -551,10 +554,10 @@ function renderCompare() {
         const p = params[0];
         const item = valid[p.dataIndex];
         return `<b>${item.model}</b><br/>` +
-          `骞冲彴: ${item.platform}<br/>` +
-          `浠锋牸: 楼${item.price.toFixed(2)} (${item.price_label || ""})<br/>` +
-          (item.original_price ? `鍘熶环: 楼${item.original_price.toFixed(2)}<br/>` : "") +
-          (p.dataIndex === minIdx ? '<span style="color:#ff9800;font-weight:600">鈽?鏈€浣庝环</span>' : "");
+          `平台: ${item.platform}<br/>` +
+          `价格: ¥${item.price.toFixed(2)} (${item.price_label || ""})<br/>` +
+          (item.original_price ? `原价: ¥${item.original_price.toFixed(2)}<br/>` : "") +
+          (p.dataIndex === minIdx ? '<span style="color:#ff9800;font-weight:600">★ 最低价</span>' : "");
       }
     },
     grid: { left: 60, right: 40, top: 30, bottom: 40 },
@@ -565,8 +568,8 @@ function renderCompare() {
     },
     yAxis: {
       type: "value",
-      name: "鍒版墜浠?楼)",
-      axisLabel: { formatter: "楼{value}" },
+      name: "到手价(¥)",
+      axisLabel: { formatter: "¥{value}" },
     },
     series: [{
       type: "bar",
@@ -584,7 +587,7 @@ function renderCompare() {
         show: true,
         position: "top",
         formatter: function(p) {
-          return "楼" + p.value.toFixed(2) + (p.dataIndex === minIdx ? " 鈽呮渶浣? : "");
+          return "¥" + p.value.toFixed(2) + (p.dataIndex === minIdx ? " ★最低" : "");
         },
         fontSize: 13,
         fontWeight: 600,
@@ -593,7 +596,7 @@ function renderCompare() {
       markPoint: {
         symbol: "pin",
         symbolSize: 50,
-        data: [{ coord: [minIdx, minPrice], value: "鏈€浣?, itemStyle: { color: "#ff9800" } }],
+        data: [{ coord: [minIdx, minPrice], value: "最低", itemStyle: { color: "#ff9800" } }],
         label: { fontSize: 10, color: "#fff" },
       },
     }],
@@ -601,11 +604,12 @@ function renderCompare() {
 }
 
 // ============================================================
-// 妯″潡鍥? 鍘嗗彶鏈€浣?鏈€楂樹环鍖洪棿
+// 模块四: 历史最低/最高价区间
 // ============================================================
 const rangeChart = echarts.init(document.getElementById("rangeChart"));
 
-// 鍝佺被绛涢€?const rangeCatSel = document.getElementById("rangeCategorySelect");
+// 品类筛选
+const rangeCatSel = document.getElementById("rangeCategorySelect");
 const allRangeCategories = [...new Set((latest.items || []).map(i => i.category))];
 allRangeCategories.forEach(c => {
   const opt = document.createElement("option"); opt.value = c; opt.textContent = c;
@@ -613,7 +617,7 @@ allRangeCategories.forEach(c => {
 });
 rangeCatSel.addEventListener("change", renderRange);
 
-// 鏀堕泦鍨嬪彿鍏ㄩ儴鍘嗗彶浠锋牸鐐? 鏈湴蹇収 + SMZDM鍘嗗彶濂戒环(offers)
+// 收集型号全部历史价格点: 本地快照 + SMZDM历史好价(offers)
 function collectHistoryPoints(model) {
   const seen = new Set();
   const pts = [];
@@ -632,8 +636,9 @@ function collectHistoryPoints(model) {
       if (it.status === "success" && it.price != null && it.price > 0) {
         add(it.price, rt, it.platform, "");
       }
-      // SMZDM 鍘嗗彶濂戒环鐐?      if (it.offers && it.offers.length) {
-        it.offers.forEach(o => add(o.price, o.time || rt, "SMZDM路" + (o.shop || ""), o.shop || ""));
+      // SMZDM 历史好价点
+      if (it.offers && it.offers.length) {
+        it.offers.forEach(o => add(o.price, o.time || rt, "SMZDM·" + (o.shop || ""), o.shop || ""));
       }
     });
   });
@@ -654,7 +659,7 @@ function renderRange() {
     const minP = Math.min(...prices), maxP = Math.max(...prices);
     const minPt = pts.find(p => p.price === minP);
     const maxPt = pts.find(p => p.price === maxP);
-    // 褰撳墠浠? latest 閲岃鍨嬪彿浠讳竴鎴愬姛椤圭殑鏈€浣庝环(鍒版墜浠峰彛寰?
+    // 当前价: latest 里该型号任一成功项的最低价(到手价口径)
     const curItems = (latest.items || []).filter(i => i.model === model && i.status === "success" && i.price != null && i.price > 0);
     const curPrice = curItems.length ? Math.min(...curItems.map(i => i.price)) : null;
     rows.push({ model, category: (latest.items||[]).find(i=>i.model===model)?.category || "", pts, minP, maxP, minPt, maxPt, curPrice, ptCount: pts.length });
@@ -664,14 +669,14 @@ function renderRange() {
 
   if (rows.length === 0) {
     rangeChart.clear();
-    rangeChart.setOption({ title: { text: "鏆傛棤鍘嗗彶浠锋牸鏁版嵁锛岄殢姣忔棩鏇存柊鑷姩绉疮", left: "center", top: "center", textStyle: { color: "#999", fontSize: 14 } } });
+    rangeChart.setOption({ title: { text: "暂无历史价格数据，随每日更新自动积累", left: "center", top: "center", textStyle: { color: "#999", fontSize: 14 } } });
     document.getElementById("rangeTableWrap").innerHTML = "";
     return;
   }
 
   const yNames = rows.map(r => r.model);
-  const barData1 = rows.map(r => r.minP);        // 鍖洪棿璧风偣(閫忔槑)
-  const barData2 = rows.map(r => r.maxP - r.minP); // 鍖洪棿闀垮害
+  const barData1 = rows.map(r => r.minP);        // 区间起点(透明)
+  const barData2 = rows.map(r => r.maxP - r.minP); // 区间长度
   const scatterData = rows.map((r, i) => r.curPrice != null ? [r.curPrice, i] : null);
 
   rangeChart.setOption({
@@ -682,19 +687,19 @@ function renderRange() {
         const r = rows[i];
         if (!r) return "";
         if (params.seriesType === "scatter") {
-          return `<b>${r.model}</b><br/>褰撳墠浠? 楼${r.curPrice.toFixed(2)}`;
+          return `<b>${r.model}</b><br/>当前价: ¥${r.curPrice.toFixed(2)}`;
         }
         return `<b>${r.model}</b> (${r.category})<br/>` +
-          `鍘嗗彶鏈€浣? 楼${r.minP.toFixed(2)} (${r.minPt.time || "--"} / ${r.minPt.src})<br/>` +
-          `鍘嗗彶鏈€楂? 楼${r.maxP.toFixed(2)} (${r.maxPt.time || "--"} / ${r.maxPt.src})<br/>` +
-          `鍘嗗彶鐐规暟: ${r.ptCount}`;
+          `历史最低: ¥${r.minP.toFixed(2)} (${r.minPt.time || "--"} / ${r.minPt.src})<br/>` +
+          `历史最高: ¥${r.maxP.toFixed(2)} (${r.maxPt.time || "--"} / ${r.maxPt.src})<br/>` +
+          `历史点数: ${r.ptCount}`;
       }
     },
     grid: { left: 170, right: 70, top: 10, bottom: 60 },
     xAxis: {
       type: "value",
-      name: "浠锋牸(楼)",
-      axisLabel: { formatter: "楼{value}" },
+      name: "价格(¥)",
+      axisLabel: { formatter: "¥{value}" },
     },
     yAxis: {
       type: "category",
@@ -704,7 +709,7 @@ function renderRange() {
     },
     series: [
       {
-        name: "鍖洪棿璧风偣",
+        name: "区间起点",
         type: "bar",
         stack: "range",
         barWidth: 14,
@@ -713,7 +718,7 @@ function renderRange() {
         emphasis: { disabled: true },
       },
       {
-        name: "浠锋牸鍖洪棿",
+        name: "价格区间",
         type: "bar",
         stack: "range",
         barWidth: 14,
@@ -721,7 +726,7 @@ function renderRange() {
         data: barData2,
       },
       {
-        name: "褰撳墠浠?,
+        name: "当前价",
         type: "scatter",
         symbol: "circle",
         symbolSize: 9,
@@ -733,11 +738,12 @@ function renderRange() {
     dataZoom: [{ type: "slider", yAxisIndex: 0, width: 16, right: 10 }],
   }, true);
 
-  // 鏄庣粏琛?  let html = '<table class="rank-table"><thead><tr>' +
-    "<th>鍨嬪彿</th><th>鍝佺被</th><th>褰撳墠浠?/th>" +
-    "<th>鍘嗗彶鏈€浣?/th><th>鏈€浣庢椂闂?/th><th>鏈€浣庢潵婧?/th>" +
-    "<th>鍘嗗彶鏈€楂?/th><th>鏈€楂樻椂闂?/th><th>鏈€楂樻潵婧?/th>" +
-    "<th>璺濇渶浣庢孩浠?/th><th>鍘嗗彶鐐规暟</th>" +
+  // 明细表
+  let html = '<table class="rank-table"><thead><tr>' +
+    "<th>型号</th><th>品类</th><th>当前价</th>" +
+    "<th>历史最低</th><th>最低时间</th><th>最低来源</th>" +
+    "<th>历史最高</th><th>最高时间</th><th>最高来源</th>" +
+    "<th>距最低溢价</th><th>历史点数</th>" +
     "</tr></thead><tbody>";
   rows.forEach(r => {
     const premium = r.curPrice != null ? (r.curPrice - r.minP) / r.minP * 100 : null;
@@ -746,11 +752,11 @@ function renderRange() {
     html += `<tr>
       <td><b>${r.model}</b></td>
       <td>${r.category}</td>
-      <td>${r.curPrice != null ? "楼" + r.curPrice.toFixed(2) : "--"}</td>
-      <td class="badge-lowest" style="padding:2px 6px;">楼${r.minP.toFixed(2)}</td>
+      <td>${r.curPrice != null ? "¥" + r.curPrice.toFixed(2) : "--"}</td>
+      <td class="badge-lowest" style="padding:2px 6px;">¥${r.minP.toFixed(2)}</td>
       <td>${r.minPt.time || "--"}</td>
       <td>${r.minPt.src}</td>
-      <td style="color:#e53935;font-weight:600;">楼${r.maxP.toFixed(2)}</td>
+      <td style="color:#e53935;font-weight:600;">¥${r.maxP.toFixed(2)}</td>
       <td>${r.maxPt.time || "--"}</td>
       <td>${r.maxPt.src}</td>
       <td class="${premCls}">${premTxt}</td>
@@ -762,7 +768,8 @@ function renderRange() {
 }
 
 // ============================================================
-// 鍒濆鍖?// ============================================================
+// 初始化
+// ============================================================
 renderRank();
 renderTrend();
 renderCompare();
