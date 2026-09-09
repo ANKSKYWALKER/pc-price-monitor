@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "cpu_intel_i5_14600kf_jd",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i5-14600KF",
+    "platform": "京东",
+    "url": "https://item.jd.com/100069427196.html",
+    "sku": "100069427196",
+    "spec": "14核20线程/5.3GHz/24MB L3/125W"
+  },
+  {
+    "id": "cpu_intel_i5_14600kf_smzdm",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i5-14600KF",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=i5-14600KF",
+    "sku": "search",
+    "spec": "14核20线程/5.3GHz/24MB L3/125W"
+  },
+  {
+    "id": "cpu_intel_i7_14700kf_jd",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i7-14700KF",
+    "platform": "京东",
+    "url": "https://item.jd.com/100070072259.html",
+    "sku": "100070072259",
+    "spec": "20核28线程/5.6GHz/33MB L3/125W"
+  },
+  {
+    "id": "cpu_intel_i7_14700kf_smzdm",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i7-14700KF",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=i7-14700KF",
+    "sku": "search",
+    "spec": "20核28线程/5.6GHz/33MB L3/125W"
+  },
+  {
+    "id": "cpu_intel_i9_14900kf_jd",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i9-14900KF",
+    "platform": "京东",
+    "url": "https://item.jd.com/100075321958.html",
+    "sku": "100075321958",
+    "spec": "24核32线程/6.0GHz/36MB L3/125W"
+  },
+  {
+    "id": "cpu_intel_i9_14900kf_smzdm",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i9-14900KF",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=i9-14900KF",
+    "sku": "search",
+    "spec": "24核32线程/6.0GHz/36MB L3/125W"
+  },
+  {
+    "id": "cpu_intel_i5_13400f_jd",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i5-13400F",
+    "platform": "京东",
+    "url": "https://item.jd.com/100049450275.html",
+    "sku": "100049450275",
+    "spec": "10核16线程/4.6GHz/20MB L3/65W"
+  },
+  {
+    "id": "cpu_intel_i5_13400f_smzdm",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i5-13400F",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=i5-13400F",
+    "sku": "search",
+    "spec": "10核16线程/4.6GHz/20MB L3/65W"
+  },
+  {
+    "id": "cpu_amd_r5_7500f_jd",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R5 7500F",
+    "platform": "京东",
+    "url": "https://item.jd.com/100059227024.html",
+    "sku": "100059227024",
+    "spec": "6核12线程/5.0GHz/32MB L3/65W"
+  },
+  {
+    "id": "cpu_amd_r5_7500f_smzdm",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R5 7500F",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=R5-7500F",
+    "sku": "search",
+    "spec": "6核12线程/5.0GHz/32MB L3/65W"
+  },
+  {
+    "id": "cpu_amd_r7_9700x_jd",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R7 9700X",
+    "platform": "京东",
+    "url": "https://item.jd.com/100109234839.html",
+    "sku": "100109234839",
+    "spec": "8核16线程/5.5GHz/32MB L3/65W"
+  },
+  {
+    "id": "cpu_amd_r7_9700x_smzdm",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R7 9700X",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=R7-9700X",
+    "sku": "search",
+    "spec": "8核16线程/5.5GHz/32MB L3/65W"
+  },
+  {
+    "id": "cpu_amd_r5_5600_jd",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R5 5600",
+    "platform": "京东",
+    "url": "https://item.jd.com/100035814972.html",
+    "sku": "100035814972",
+    "spec": "6核12线程/4.4GHz/32MB L3/65W"
+  },
+  {
+    "id": "cpu_amd_r5_5600_smzdm",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R5 5600",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=R5-5600",
+    "sku": "search",
+    "spec": "6核12线程/4.4GHz/32MB L3/65W"
+  },
+  {
+    "id": "cpu_amd_r7_7800x3d_jd",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R7 7800X3D",
+    "platform": "京东",
+    "url": "https://item.jd.com/100046394400.html",
+    "sku": "100046394400",
+    "spec": "8核16线程/5.0GHz/96MB L3/120W"
+  },
+  {
+    "id": "cpu_amd_r7_7800x3d_smzdm",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R7 7800X3D",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=R7-7800X3D",
+    "sku": "search",
+    "spec": "8核16线程/5.0GHz/96MB L3/120W"
+  },
+  {
+    "id": "mb_微星_b760m_mortar_wifi_ii_jd",
+    "category": "主板",
+    "brand": "微星",
+    "model": "B760M MORTAR WIFI II",
+    "platform": "京东",
+    "url": "https://item.jd.com/100065608702.html",
+    "sku": "100065608702",
+    "spec": "M-ATX/LGA1700/DDR5/WiFi6E/2.5G网口"
+  },
+  {
+    "id": "mb_微星_b760m_mortar_wifi_ii_smzdm",
+    "category": "主板",
+    "brand": "微星",
+    "model": "B760M MORTAR WIFI II",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%BE%AE%E6%98%9FB760M%E8%BF%AB%E5%87%BB%E7%82%AE",
+    "sku": "search",
+    "spec": "M-ATX/LGA1700/DDR5/WiFi6E/2.5G网口"
+  },
+  {
+    "id": "mb_华硕_tuf_gaming_b760m_plus_wifi_d4_jd",
+    "category": "主板",
+    "brand": "华硕",
+    "model": "TUF GAMING B760M-PLUS WIFI D4",
+    "platform": "京东",
+    "url": "https://item.jd.com/100041216184.html",
+    "sku": "100041216184",
+    "spec": "M-ATX/LGA1700/DDR4/WiFi6/2.5G网口"
+  },
+  {
+    "id": "mb_华硕_tuf_gaming_b760m_plus_wifi_d4_smzdm",
+    "category": "主板",
+    "brand": "华硕",
+    "model": "TUF GAMING B760M-PLUS WIFI D4",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95TUF%20B760M",
+    "sku": "search",
+    "spec": "M-ATX/LGA1700/DDR4/WiFi6/2.5G网口"
+  },
+  {
+    "id": "mb_技嘉_b860m_aorus_pro_wifi_7_jd",
+    "category": "主板",
+    "brand": "技嘉",
+    "model": "B860M AORUS PRO WIFI 7",
+    "platform": "京东",
+    "url": "https://item.jd.com/100168449320.html",
+    "sku": "100168449320",
+    "spec": "M-ATX/LGA1851/DDR5/WiFi7/2.5G网口"
+  },
+  {
+    "id": "mb_技嘉_b860m_aorus_pro_wifi_7_smzdm",
+    "category": "主板",
+    "brand": "技嘉",
+    "model": "B860M AORUS PRO WIFI 7",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E6%8A%80%E5%98%89B860M",
+    "sku": "search",
+    "spec": "M-ATX/LGA1851/DDR5/WiFi7/2.5G网口"
+  },
+  {
+    "id": "mb_华硕_tuf_gaming_x670e_plus_wifi_jd",
+    "category": "主板",
+    "brand": "华硕",
+    "model": "TUF GAMING X670E-PLUS WIFI",
+    "platform": "京东",
+    "url": "https://item.jd.com/10226578555587.html",
+    "sku": "10226578555587",
+    "spec": "ATX/AM5/DDR5/WiFi6E/2.5G网口/PCIe5.0"
+  },
+  {
+    "id": "mb_华硕_tuf_gaming_x670e_plus_wifi_smzdm",
+    "category": "主板",
+    "brand": "华硕",
+    "model": "TUF GAMING X670E-PLUS WIFI",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95X670E",
+    "sku": "search",
+    "spec": "ATX/AM5/DDR5/WiFi6E/2.5G网口/PCIe5.0"
+  },
+  {
+    "id": "gpu_七彩虹_rtx_4060_战斧_duo_8g_jd",
+    "category": "显卡",
+    "brand": "七彩虹",
+    "model": "RTX 4060 战斧 DUO 8G",
+    "platform": "京东",
+    "url": "https://item.jd.com/10146289513846.html",
+    "sku": "10146289513846",
+    "spec": "8GB GDDR6/128bit/DLSS3/双风扇"
+  },
+  {
+    "id": "gpu_七彩虹_rtx_4060_战斧_duo_8g_smzdm",
+    "category": "显卡",
+    "brand": "七彩虹",
+    "model": "RTX 4060 战斧 DUO 8G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E4%B8%83%E5%BD%A9%E8%99%B9RTX4060%E6%88%98%E6%96%A7",
+    "sku": "search",
+    "spec": "8GB GDDR6/128bit/DLSS3/双风扇"
+  },
+  {
+    "id": "gpu_华硕_dual_rtx4070_o12g_jd",
+    "category": "显卡",
+    "brand": "华硕",
+    "model": "DUAL RTX4070 O12G",
+    "platform": "京东",
+    "url": "https://item.jd.com/100057112839.html",
+    "sku": "100057112839",
+    "spec": "12GB GDDR6X/192bit/DLSS3/双风扇"
+  },
+  {
+    "id": "gpu_华硕_dual_rtx4070_o12g_smzdm",
+    "category": "显卡",
+    "brand": "华硕",
+    "model": "DUAL RTX4070 O12G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95DUAL%20RTX4070",
+    "sku": "search",
+    "spec": "12GB GDDR6X/192bit/DLSS3/双风扇"
+  },
+  {
+    "id": "gpu_华硕_tuf_rtx_4070_super_o12g_jd",
+    "category": "显卡",
+    "brand": "华硕",
+    "model": "TUF RTX 4070 SUPER O12G",
+    "platform": "京东",
+    "url": "https://item.jd.com/100081528989.html",
+    "sku": "100081528989",
+    "spec": "12GB GDDR6X/192bit/DLSS3/三风扇"
+  },
+  {
+    "id": "gpu_华硕_tuf_rtx_4070_super_o12g_smzdm",
+    "category": "显卡",
+    "brand": "华硕",
+    "model": "TUF RTX 4070 SUPER O12G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95RTX4070SUPER",
+    "sku": "search",
+    "spec": "12GB GDDR6X/192bit/DLSS3/三风扇"
+  },
+  {
+    "id": "gpu_七彩虹_igame_rtx_4070_ti_super_vulcan_w_oc_jd",
+    "category": "显卡",
+    "brand": "七彩虹",
+    "model": "iGame RTX 4070 Ti SUPER Vulcan W OC",
+    "platform": "京东",
+    "url": "https://item.jd.com/100081721831.html",
+    "sku": "100081721831",
+    "spec": "16GB GDDR6X/256bit/DLSS3/三风扇/小屏幕"
+  },
+  {
+    "id": "gpu_七彩虹_igame_rtx_4070_ti_super_vulcan_w_oc_smzdm",
+    "category": "显卡",
+    "brand": "七彩虹",
+    "model": "iGame RTX 4070 Ti SUPER Vulcan W OC",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E4%B8%83%E5%BD%A9%E8%99%B94070TiS%E7%81%AB%E7%A5%9E",
+    "sku": "search",
+    "spec": "16GB GDDR6X/256bit/DLSS3/三风扇/小屏幕"
+  },
+  {
+    "id": "gpu_七彩虹_igame_rtx_4070_super_ultra_w_oc_jd",
+    "category": "显卡",
+    "brand": "七彩虹",
+    "model": "iGame RTX 4070 SUPER Ultra W OC",
+    "platform": "京东",
+    "url": "https://item.jd.com/100086908706.html",
+    "sku": "100086908706",
+    "spec": "12GB GDDR6X/192bit/DLSS3/三风扇"
+  },
+  {
+    "id": "gpu_七彩虹_igame_rtx_4070_super_ultra_w_oc_smzdm",
+    "category": "显卡",
+    "brand": "七彩虹",
+    "model": "iGame RTX 4070 SUPER Ultra W OC",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E4%B8%83%E5%BD%A9%E8%99%B94070SUltra",
+    "sku": "search",
+    "spec": "12GB GDDR6X/192bit/DLSS3/三风扇"
+  },
+  {
+    "id": "gpu_影驰_rtx_4070_ti_super_金属大师_oc_jd",
+    "category": "显卡",
+    "brand": "影驰",
+    "model": "RTX 4070 Ti SUPER 金属大师 OC",
+    "platform": "京东",
+    "url": "https://item.jd.com/10095346437043.html",
+    "sku": "10095346437043",
+    "spec": "16GB GDDR6X/256bit/DLSS3/三风扇/金属外壳"
+  },
+  {
+    "id": "gpu_影驰_rtx_4070_ti_super_金属大师_oc_smzdm",
+    "category": "显卡",
+    "brand": "影驰",
+    "model": "RTX 4070 Ti SUPER 金属大师 OC",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%BD%B1%E9%A9%B04070TiS%E9%87%91%E5%B1%9E%E5%A4%A7%E5%B8%88",
+    "sku": "search",
+    "spec": "16GB GDDR6X/256bit/DLSS3/三风扇/金属外壳"
+  },
+  {
+    "id": "ram_金百达_ddr5_6000_16gbx2_银爵_jd",
+    "category": "内存",
+    "brand": "金百达",
+    "model": "DDR5 6000 16GBx2 银爵",
+    "platform": "京东",
+    "url": "https://item.jd.com/10146450525203.html",
+    "sku": "10146450525203",
+    "spec": "32GB(16Gx2)/DDR5 6000MHz/CL30/海力士颗粒"
+  },
+  {
+    "id": "ram_金百达_ddr5_6000_16gbx2_银爵_smzdm",
+    "category": "内存",
+    "brand": "金百达",
+    "model": "DDR5 6000 16GBx2 银爵",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E9%87%91%E7%99%BE%E8%BE%BEDDR5%206000",
+    "sku": "search",
+    "spec": "32GB(16Gx2)/DDR5 6000MHz/CL30/海力士颗粒"
+  },
+  {
+    "id": "ram_芝奇_ddr5_6000_16gx2_焰刃_黯夜黑_jd",
+    "category": "内存",
+    "brand": "芝奇",
+    "model": "DDR5 6000 16Gx2 焰刃 黯夜黑",
+    "platform": "京东",
+    "url": "https://item.jd.com/100049944707.html",
+    "sku": "100049944707",
+    "spec": "32GB(16Gx2)/DDR5 6000MHz/CL36/无光"
+  },
+  {
+    "id": "ram_芝奇_ddr5_6000_16gx2_焰刃_黯夜黑_smzdm",
+    "category": "内存",
+    "brand": "芝奇",
+    "model": "DDR5 6000 16Gx2 焰刃 黯夜黑",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%8A%9D%E5%A5%87DDR5%206000%E7%84%B0%E5%88%83",
+    "sku": "search",
+    "spec": "32GB(16Gx2)/DDR5 6000MHz/CL36/无光"
+  },
+  {
+    "id": "ram_金士顿_fury_ddr5_6000_16gb_野兽_jd",
+    "category": "内存",
+    "brand": "金士顿",
+    "model": "FURY DDR5 6000 16GB 野兽",
+    "platform": "京东",
+    "url": "https://item.jd.com/100148486020.html",
+    "sku": "100148486020",
+    "spec": "16GB单条/DDR5 6000MHz/CL36/支持XMP&EXPO"
+  },
+  {
+    "id": "ram_金士顿_fury_ddr5_6000_16gb_野兽_smzdm",
+    "category": "内存",
+    "brand": "金士顿",
+    "model": "FURY DDR5 6000 16GB 野兽",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E9%87%91%E5%A3%AB%E9%A1%BFFURY%20DDR5%206000",
+    "sku": "search",
+    "spec": "16GB单条/DDR5 6000MHz/CL36/支持XMP&EXPO"
+  },
+  {
+    "id": "ssd_三星_990_pro_1tb_jd",
+    "category": "固态硬盘",
+    "brand": "三星",
+    "model": "990 PRO 1TB",
+    "platform": "京东",
+    "url": "https://item.jd.com/100045627653.html",
+    "sku": "100045627653",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读7450MB/s/写6900MB/s"
+  },
+  {
+    "id": "ssd_三星_990_pro_1tb_smzdm",
+    "category": "固态硬盘",
+    "brand": "三星",
+    "model": "990 PRO 1TB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E4%B8%89%E6%98%9F990PRO",
+    "sku": "search",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读7450MB/s/写6900MB/s"
+  },
+  {
+    "id": "ssd_致态_tiplus7100_1tb_jd",
+    "category": "固态硬盘",
+    "brand": "致态",
+    "model": "TiPlus7100 1TB",
+    "platform": "京东",
+    "url": "https://item.jd.com/10065442843465.html",
+    "sku": "10065442843465",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读7000MB/s/写6000MB/s"
+  },
+  {
+    "id": "ssd_致态_tiplus7100_1tb_smzdm",
+    "category": "固态硬盘",
+    "brand": "致态",
+    "model": "TiPlus7100 1TB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%87%B4%E6%80%81TiPlus7100",
+    "sku": "search",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读7000MB/s/写6000MB/s"
+  },
+  {
+    "id": "ssd_西部数据_sn850x_1tb_jd",
+    "category": "固态硬盘",
+    "brand": "西部数据",
+    "model": "SN850X 1TB",
+    "platform": "京东",
+    "url": "https://item.jd.com/10120076932441.html",
+    "sku": "10120076932441",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读7300MB/s/写6300MB/s"
+  },
+  {
+    "id": "ssd_西部数据_sn850x_1tb_smzdm",
+    "category": "固态硬盘",
+    "brand": "西部数据",
+    "model": "SN850X 1TB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=WD%20SN850X",
+    "sku": "search",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读7300MB/s/写6300MB/s"
+  },
+  {
+    "id": "ssd_金士顿_nv3_1tb_jd",
+    "category": "固态硬盘",
+    "brand": "金士顿",
+    "model": "NV3 1TB",
+    "platform": "京东",
+    "url": "https://item.jd.com/100133840610.html",
+    "sku": "100133840610",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读5000MB/s/写3800MB/s"
+  },
+  {
+    "id": "ssd_金士顿_nv3_1tb_smzdm",
+    "category": "固态硬盘",
+    "brand": "金士顿",
+    "model": "NV3 1TB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E9%87%91%E5%A3%AB%E9%A1%BFNV3",
+    "sku": "search",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读5000MB/s/写3800MB/s"
+  },
+  {
+    "id": "ssd_致态_tiplus7100s_1tb_jd",
+    "category": "固态硬盘",
+    "brand": "致态",
+    "model": "TiPlus7100s 1TB",
+    "platform": "京东",
+    "url": "https://item.jd.com/100293889522.html",
+    "sku": "100293889522",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读7100MB/s/写6500MB/s"
+  },
+  {
+    "id": "ssd_致态_tiplus7100s_1tb_smzdm",
+    "category": "固态硬盘",
+    "brand": "致态",
+    "model": "TiPlus7100s 1TB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%87%B4%E6%80%81TiPlus7100s",
+    "sku": "search",
+    "spec": "1TB/M.2 NVMe PCIe4.0/读7100MB/s/写6500MB/s"
+  },
+  {
+    "id": "hdd_希捷_酷鹰_4tb_st4000vx015_jd",
+    "category": "机械硬盘",
+    "brand": "希捷",
+    "model": "酷鹰 4TB ST4000VX015",
+    "platform": "京东",
+    "url": "https://item.jd.com/100192652604.html",
+    "sku": "100192652604",
+    "spec": "4TB/3.5寸/SATA/5400转/256MB/CMR垂直"
+  },
+  {
+    "id": "hdd_希捷_酷鹰_4tb_st4000vx015_smzdm",
+    "category": "机械硬盘",
+    "brand": "希捷",
+    "model": "酷鹰 4TB ST4000VX015",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%B8%8C%E6%8D%B7%E9%85%B7%E9%B9%B04TB",
+    "sku": "search",
+    "spec": "4TB/3.5寸/SATA/5400转/256MB/CMR垂直"
+  },
+  {
+    "id": "hdd_西部数据_蓝盘_4tb_wd40ezax_jd",
+    "category": "机械硬盘",
+    "brand": "西部数据",
+    "model": "蓝盘 4TB WD40EZAX",
+    "platform": "京东",
+    "url": "https://item.jd.com/100048251752.html",
+    "sku": "100048251752",
+    "spec": "4TB/3.5寸/SATA/5400转/256MB/CMR垂直"
+  },
+  {
+    "id": "hdd_西部数据_蓝盘_4tb_wd40ezax_smzdm",
+    "category": "机械硬盘",
+    "brand": "西部数据",
+    "model": "蓝盘 4TB WD40EZAX",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%A5%BF%E6%95%B0%E8%93%9D%E7%9B%984TB",
+    "sku": "search",
+    "spec": "4TB/3.5寸/SATA/5400转/256MB/CMR垂直"
+  },
+  {
+    "id": "hdd_希捷_酷鱼_4tb_st4000dm004_jd",
+    "category": "机械硬盘",
+    "brand": "希捷",
+    "model": "酷鱼 4TB ST4000DM004",
+    "platform": "京东",
+    "url": "https://item.jd.com/10025993898862.html",
+    "sku": "10025993898862",
+    "spec": "4TB/3.5寸/SATA/5400转/256MB"
+  },
+  {
+    "id": "hdd_希捷_酷鱼_4tb_st4000dm004_smzdm",
+    "category": "机械硬盘",
+    "brand": "希捷",
+    "model": "酷鱼 4TB ST4000DM004",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%B8%8C%E6%8D%B7%E9%85%B7%E9%B1%BC4TB",
+    "sku": "search",
+    "spec": "4TB/3.5寸/SATA/5400转/256MB"
+  },
+  {
+    "id": "psu_海韵_focus_gx_750_jd",
+    "category": "电源",
+    "brand": "海韵",
+    "model": "FOCUS GX-750",
+    "platform": "京东",
+    "url": "https://item.jd.com/100007186412.html",
+    "sku": "100007186412",
+    "spec": "750W/80PLUS金牌/全模组/ATX3.0/10年质保"
+  },
+  {
+    "id": "psu_海韵_focus_gx_750_smzdm",
+    "category": "电源",
+    "brand": "海韵",
+    "model": "FOCUS GX-750",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E6%B5%B7%E9%9F%B5GX750",
+    "sku": "search",
+    "spec": "750W/80PLUS金牌/全模组/ATX3.0/10年质保"
+  },
+  {
+    "id": "psu_长城_x7_750w_atx3_1_jd",
+    "category": "电源",
+    "brand": "长城",
+    "model": "X7 750W ATX3.1",
+    "platform": "京东",
+    "url": "https://item.jd.com/100067747362.html",
+    "sku": "100067747362",
+    "spec": "750W/80PLUS金牌/全模组/ATX3.1/原生PCIe5.1"
+  },
+  {
+    "id": "psu_长城_x7_750w_atx3_1_smzdm",
+    "category": "电源",
+    "brand": "长城",
+    "model": "X7 750W ATX3.1",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E9%95%BF%E5%9F%8EX7%20750W",
+    "sku": "search",
+    "spec": "750W/80PLUS金牌/全模组/ATX3.1/原生PCIe5.1"
+  },
+  {
+    "id": "psu_安钛克_ne750_金牌全模组_jd",
+    "category": "电源",
+    "brand": "安钛克",
+    "model": "NE750 金牌全模组",
+    "platform": "京东",
+    "url": "https://item.jd.com/100032414067.html",
+    "sku": "100032414067",
+    "spec": "750W/80PLUS金牌/全模组/全日系电容/风扇启停"
+  },
+  {
+    "id": "psu_安钛克_ne750_金牌全模组_smzdm",
+    "category": "电源",
+    "brand": "安钛克",
+    "model": "NE750 金牌全模组",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%AE%89%E9%92%9B%E5%85%8BNE750",
+    "sku": "search",
+    "spec": "750W/80PLUS金牌/全模组/全日系电容/风扇启停"
+  },
+  {
+    "id": "psu_安钛克_ne850_纯白色金牌全模_jd",
+    "category": "电源",
+    "brand": "安钛克",
+    "model": "NE850 纯白色金牌全模",
+    "platform": "京东",
+    "url": "https://item.jd.com/100032414065.html",
+    "sku": "100032414065",
+    "spec": "850W/80PLUS金牌/全模组/白色/全日系电容"
+  },
+  {
+    "id": "psu_安钛克_ne850_纯白色金牌全模_smzdm",
+    "category": "电源",
+    "brand": "安钛克",
+    "model": "NE850 纯白色金牌全模",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%AE%89%E9%92%9B%E5%85%8BNE850",
+    "sku": "search",
+    "spec": "850W/80PLUS金牌/全模组/白色/全日系电容"
+  },
+  {
+    "id": "psu_利民_tr_sg750_atx3_1_jd",
+    "category": "电源",
+    "brand": "利民",
+    "model": "TR-SG750 ATX3.1",
+    "platform": "京东",
+    "url": "https://item.jd.com/100116682196.html",
+    "sku": "100116682196",
+    "spec": "750W/80PLUS金牌/全模组/ATX3.1/PCIe5.1/14cm小机身"
+  },
+  {
+    "id": "psu_利民_tr_sg750_atx3_1_smzdm",
+    "category": "电源",
+    "brand": "利民",
+    "model": "TR-SG750 ATX3.1",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%88%A9%E6%B0%91SG750",
+    "sku": "search",
+    "spec": "750W/80PLUS金牌/全模组/ATX3.1/PCIe5.1/14cm小机身"
+  },
+  {
+    "id": "psu_华硕_prime_750g_金牌全模组_jd",
+    "category": "电源",
+    "brand": "华硕",
+    "model": "PRIME 750G 金牌全模组",
+    "platform": "京东",
+    "url": "https://item.jd.com/100065205175.html",
+    "sku": "100065205175",
+    "spec": "750W/80PLUS金牌/全模组/ATX3.0/PCIe5.0/双配色"
+  },
+  {
+    "id": "psu_华硕_prime_750g_金牌全模组_smzdm",
+    "category": "电源",
+    "brand": "华硕",
+    "model": "PRIME 750G 金牌全模组",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95PRIME%20750G",
+    "sku": "search",
+    "spec": "750W/80PLUS金牌/全模组/ATX3.0/PCIe5.0/双配色"
+  },
+  {
+    "id": "psu_安钛克_ne1000_白色金牌全模_jd",
+    "category": "电源",
+    "brand": "安钛克",
+    "model": "NE1000 白色金牌全模",
+    "platform": "京东",
+    "url": "https://item.jd.com/100051262360.html",
+    "sku": "100051262360",
+    "spec": "1000W/80PLUS金牌/全模组/白色/ATX3.0/PCIe5.0"
+  },
+  {
+    "id": "psu_安钛克_ne1000_白色金牌全模_smzdm",
+    "category": "电源",
+    "brand": "安钛克",
+    "model": "NE1000 白色金牌全模",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%AE%89%E9%92%9B%E5%85%8BNE1000",
+    "sku": "search",
+    "spec": "1000W/80PLUS金牌/全模组/白色/ATX3.0/PCIe5.0"
+  },
+  {
+    "id": "case_追风者_p400a_黑色_jd",
+    "category": "机箱",
+    "brand": "追风者",
+    "model": "P400A 黑色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100027144648.html",
+    "sku": "100027144648",
+    "spec": "ATX中塔/钢化玻璃侧透/网孔前面板/360水冷位"
+  },
+  {
+    "id": "case_追风者_p400a_黑色_smzdm",
+    "category": "机箱",
+    "brand": "追风者",
+    "model": "P400A 黑色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%BF%BD%E9%A3%8E%E8%80%85P400A",
+    "sku": "search",
+    "spec": "ATX中塔/钢化玻璃侧透/网孔前面板/360水冷位"
+  },
+  {
+    "id": "case_乔思伯_松果d41_标准版黑色_jd",
+    "category": "机箱",
+    "brand": "乔思伯",
+    "model": "松果D41 标准版黑色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100047322665.html",
+    "sku": "100047322665",
+    "spec": "ATX/双360冷排/Type-C Gen2/垂直风道/长显卡"
+  },
+  {
+    "id": "case_乔思伯_松果d41_标准版黑色_smzdm",
+    "category": "机箱",
+    "brand": "乔思伯",
+    "model": "松果D41 标准版黑色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E4%B9%94%E6%80%9D%E4%BC%AFD41",
+    "sku": "search",
+    "spec": "ATX/双360冷排/Type-C Gen2/垂直风道/长显卡"
+  },
+  {
+    "id": "case_先马_趣造2_黑色_jd",
+    "category": "机箱",
+    "brand": "先马",
+    "model": "趣造2 黑色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100058080909.html",
+    "sku": "100058080909",
+    "spec": "M-ATX小机箱/四面散热网孔/240/280水冷/Type-C"
+  },
+  {
+    "id": "case_先马_趣造2_黑色_smzdm",
+    "category": "机箱",
+    "brand": "先马",
+    "model": "趣造2 黑色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%85%88%E9%A9%AC%E8%B6%A3%E9%80%A02",
+    "sku": "search",
+    "spec": "M-ATX小机箱/四面散热网孔/240/280水冷/Type-C"
+  },
+  {
+    "id": "case_航嘉_s960_暴风雪x_黑色_jd",
+    "category": "机箱",
+    "brand": "航嘉",
+    "model": "S960 暴风雪X 黑色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100063336015.html",
+    "sku": "100063336015",
+    "spec": "M-ATX海景房/双面钢化玻璃/左右分区/360水冷/9风扇位"
+  },
+  {
+    "id": "case_航嘉_s960_暴风雪x_黑色_smzdm",
+    "category": "机箱",
+    "brand": "航嘉",
+    "model": "S960 暴风雪X 黑色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%88%AA%E5%98%89S960%E6%9A%B4%E9%A3%8E%E9%9B%AA",
+    "sku": "search",
+    "spec": "M-ATX海景房/双面钢化玻璃/左右分区/360水冷/9风扇位"
+  },
+  {
+    "id": "case_航嘉_s960_暴风雪x_白色_jd",
+    "category": "机箱",
+    "brand": "航嘉",
+    "model": "S960 暴风雪X 白色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100059347464.html",
+    "sku": "100059347464",
+    "spec": "M-ATX海景房/双面钢化玻璃/左右分区/360水冷/9风扇位/白色"
+  },
+  {
+    "id": "case_航嘉_s960_暴风雪x_白色_smzdm",
+    "category": "机箱",
+    "brand": "航嘉",
+    "model": "S960 暴风雪X 白色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%88%AA%E5%98%89S960%E7%99%BD%E8%89%B2",
+    "sku": "search",
+    "spec": "M-ATX海景房/双面钢化玻璃/左右分区/360水冷/9风扇位/白色"
+  },
+  {
+    "id": "case_先马_趣造2_air_黑色_jd",
+    "category": "机箱",
+    "brand": "先马",
+    "model": "趣造2 Air 黑色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100099896817.html",
+    "sku": "100099896817",
+    "spec": "M-ATX小机箱/四面网孔/易拆结构/ATX电源/Type-C"
+  },
+  {
+    "id": "case_先马_趣造2_air_黑色_smzdm",
+    "category": "机箱",
+    "brand": "先马",
+    "model": "趣造2 Air 黑色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%85%88%E9%A9%AC%E8%B6%A3%E9%80%A02Air",
+    "sku": "search",
+    "spec": "M-ATX小机箱/四面网孔/易拆结构/ATX电源/Type-C"
+  },
+  {
+    "id": "cooler_利民_pa120_se_argb_jd",
+    "category": "CPU散热器",
+    "brand": "利民",
+    "model": "PA120 SE ARGB",
+    "platform": "京东",
+    "url": "https://item.jd.com/100027515394.html",
+    "sku": "100027515394",
+    "spec": "双塔风冷/6热管/ARGB/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_利民_pa120_se_argb_smzdm",
+    "category": "CPU散热器",
+    "brand": "利民",
+    "model": "PA120 SE ARGB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%88%A9%E6%B0%91PA120",
+    "sku": "search",
+    "spec": "双塔风冷/6热管/ARGB/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_九州风神_冰堡垒360_数显版_jd",
+    "category": "CPU散热器",
+    "brand": "九州风神",
+    "model": "冰堡垒360 数显版",
+    "platform": "京东",
+    "url": "https://item.jd.com/100091159842.html",
+    "sku": "100091159842",
+    "spec": "360一体式水冷/三重数显屏/ARGB/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_九州风神_冰堡垒360_数显版_smzdm",
+    "category": "CPU散热器",
+    "brand": "九州风神",
+    "model": "冰堡垒360 数显版",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E4%B9%9D%E5%B7%9E%E9%A3%8E%E7%A5%9E%E5%86%B0%E5%A0%A1%E5%9E%92360",
+    "sku": "search",
+    "spec": "360一体式水冷/三重数显屏/ARGB/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_瓦尔基里_c360_rgb_jd",
+    "category": "CPU散热器",
+    "brand": "瓦尔基里",
+    "model": "C360-RGB",
+    "platform": "京东",
+    "url": "https://item.jd.com/100021729801.html",
+    "sku": "100021729801",
+    "spec": "360一体式水冷/ARGB光效/金属扣具/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_瓦尔基里_c360_rgb_smzdm",
+    "category": "CPU散热器",
+    "brand": "瓦尔基里",
+    "model": "C360-RGB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E7%93%A6%E5%B0%94%E5%9F%BA%E9%87%8CC360",
+    "sku": "search",
+    "spec": "360一体式水冷/ARGB光效/金属扣具/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_瓦尔基里_gl360_jd",
+    "category": "CPU散热器",
+    "brand": "瓦尔基里",
+    "model": "GL360",
+    "platform": "京东",
+    "url": "https://item.jd.com/100032596141.html",
+    "sku": "100032596141",
+    "spec": "360一体式水冷/ARGB/铝质冷头/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_瓦尔基里_gl360_smzdm",
+    "category": "CPU散热器",
+    "brand": "瓦尔基里",
+    "model": "GL360",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E7%93%A6%E5%B0%94%E5%9F%BA%E9%87%8CGL360",
+    "sku": "search",
+    "spec": "360一体式水冷/ARGB/铝质冷头/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_瓦尔基里_c360w_rgb_白色_jd",
+    "category": "CPU散热器",
+    "brand": "瓦尔基里",
+    "model": "C360W-RGB 白色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100023071423.html",
+    "sku": "100023071423",
+    "spec": "360一体式水冷/白色/ARGB/金属扣具/支持LGA1700&AM5"
+  },
+  {
+    "id": "cooler_瓦尔基里_c360w_rgb_白色_smzdm",
+    "category": "CPU散热器",
+    "brand": "瓦尔基里",
+    "model": "C360W-RGB 白色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E7%93%A6%E5%B0%94%E5%9F%BA%E9%87%8CC360%E7%99%BD%E8%89%B2",
+    "sku": "search",
+    "spec": "360一体式水冷/白色/ARGB/金属扣具/支持LGA1700&AM5"
+  },
+  {
+    "id": "fan_利民_tl_c12c_jd",
+    "category": "机箱风扇",
+    "brand": "利民",
+    "model": "TL-C12C",
+    "platform": "京东",
+    "url": "https://item.jd.com/100041752787.html",
+    "sku": "100041752787",
+    "spec": "12cm/PWM温控/4针/1500转/液压轴承"
+  },
+  {
+    "id": "fan_利民_tl_c12c_smzdm",
+    "category": "机箱风扇",
+    "brand": "利民",
+    "model": "TL-C12C",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%88%A9%E6%B0%91TL-C12C",
+    "sku": "search",
+    "spec": "12cm/PWM温控/4针/1500转/液压轴承"
+  },
+  {
+    "id": "fan_猫头鹰_nf_a12x25_pwm_jd",
+    "category": "机箱风扇",
+    "brand": "猫头鹰",
+    "model": "NF-A12x25 PWM",
+    "platform": "京东",
+    "url": "https://item.jd.com/10116472479422.html",
+    "sku": "10116472479422",
+    "spec": "12cm/PWM智能温控/4针/FDB轴承/2000转"
+  },
+  {
+    "id": "fan_猫头鹰_nf_a12x25_pwm_smzdm",
+    "category": "机箱风扇",
+    "brand": "猫头鹰",
+    "model": "NF-A12x25 PWM",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E7%8C%AB%E5%A4%B4%E9%B9%B0NF-A12x25",
+    "sku": "search",
+    "spec": "12cm/PWM智能温控/4针/FDB轴承/2000转"
+  },
+  {
+    "id": "fan_联力_积木风扇_sl120_3b_黑色_jd",
+    "category": "机箱风扇",
+    "brand": "联力",
+    "model": "积木风扇 SL120-3B 黑色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100008365113.html",
+    "sku": "100008365113",
+    "spec": "12cmx3/无线材拼接/磁悬浮磁铁/32颗ARGB灯珠"
+  },
+  {
+    "id": "fan_联力_积木风扇_sl120_3b_黑色_smzdm",
+    "category": "机箱风扇",
+    "brand": "联力",
+    "model": "积木风扇 SL120-3B 黑色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%81%94%E5%8A%9B%E7%A7%AF%E6%9C%A8%E9%A3%8E%E6%89%87SL120",
+    "sku": "search",
+    "spec": "12cmx3/无线材拼接/磁悬浮磁铁/32颗ARGB灯珠"
+  },
+  {
+    "id": "fan_利民_tl_p12_s_argb_jd",
+    "category": "机箱风扇",
+    "brand": "利民",
+    "model": "TL-P12-S ARGB",
+    "platform": "京东",
+    "url": "https://item.jd.com/100071529649.html",
+    "sku": "100071529649",
+    "spec": "12cm/PWM/1500转/S-FDB轴承/ARGB幻彩"
+  },
+  {
+    "id": "fan_利民_tl_p12_s_argb_smzdm",
+    "category": "机箱风扇",
+    "brand": "利民",
+    "model": "TL-P12-S ARGB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%88%A9%E6%B0%91TL-P12-S",
+    "sku": "search",
+    "spec": "12cm/PWM/1500转/S-FDB轴承/ARGB幻彩"
+  },
+  {
+    "id": "fan_联力_积木风扇三代无线版_黑色_jd",
+    "category": "机箱风扇",
+    "brand": "联力",
+    "model": "积木风扇三代无线版 黑色",
+    "platform": "京东",
+    "url": "https://item.jd.com/10166673852540.html",
+    "sku": "10166673852540",
+    "spec": "12cm/ARGB/FDB轴承/无限镜灯效/无线拼接"
+  },
+  {
+    "id": "fan_联力_积木风扇三代无线版_黑色_smzdm",
+    "category": "机箱风扇",
+    "brand": "联力",
+    "model": "积木风扇三代无线版 黑色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%81%94%E5%8A%9B%E7%A7%AF%E6%9C%A8%E9%A3%8E%E6%89%87%E4%B8%89%E4%BB%A3",
+    "sku": "search",
+    "spec": "12cm/ARGB/FDB轴承/无限镜灯效/无线拼接"
+  },
+  {
+    "id": "monitor_戴尔_u2723qe_27英寸_4k_jd",
+    "category": "显示器",
+    "brand": "戴尔",
+    "model": "U2723QE 27英寸 4K",
+    "platform": "京东",
+    "url": "https://item.jd.com/100019203679.html",
+    "sku": "100019203679",
+    "spec": "27寸/4K UHD/IPS Black/Type-C 90W/硬件低蓝光"
+  },
+  {
+    "id": "monitor_戴尔_u2723qe_27英寸_4k_smzdm",
+    "category": "显示器",
+    "brand": "戴尔",
+    "model": "U2723QE 27英寸 4K",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E6%88%B4%E5%B0%94U2723QE",
+    "sku": "search",
+    "spec": "27寸/4K UHD/IPS Black/Type-C 90W/硬件低蓝光"
+  },
+  {
+    "id": "monitor_aoc_q27g40e_ws_27英寸_2k_180hz_jd",
+    "category": "显示器",
+    "brand": "AOC",
+    "model": "Q27G40E/WS 27英寸 2K 180Hz",
+    "platform": "京东",
+    "url": "https://item.jd.com/10174600677036.html",
+    "sku": "10174600677036",
+    "spec": "27寸/2K/180Hz/FastIPS/1ms/HDR10/白色"
+  },
+  {
+    "id": "monitor_aoc_q27g40e_ws_27英寸_2k_180hz_smzdm",
+    "category": "显示器",
+    "brand": "AOC",
+    "model": "Q27G40E/WS 27英寸 2K 180Hz",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=AOC%20Q27G40E",
+    "sku": "search",
+    "spec": "27寸/2K/180Hz/FastIPS/1ms/HDR10/白色"
+  },
+  {
+    "id": "monitor_微星_pro_max_271qphw_e14_27英寸_2k_jd",
+    "category": "显示器",
+    "brand": "微星",
+    "model": "PRO MAX 271QPHW E14 27英寸 2K",
+    "platform": "京东",
+    "url": "https://item.jd.com/100328488190.html",
+    "sku": "100328488190",
+    "spec": "27寸/2K/100Hz/IPS/圆偏光护眼/Type-C"
+  },
+  {
+    "id": "monitor_微星_pro_max_271qphw_e14_27英寸_2k_smzdm",
+    "category": "显示器",
+    "brand": "微星",
+    "model": "PRO MAX 271QPHW E14 27英寸 2K",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%BE%AE%E6%98%9FPRO%20MAX%20271QPHW",
+    "sku": "search",
+    "spec": "27寸/2K/100Hz/IPS/圆偏光护眼/Type-C"
+  },
+  {
+    "id": "monitor_飞利浦_evnia_27m2n6550pf_27英寸_woled_jd",
+    "category": "显示器",
+    "brand": "飞利浦",
+    "model": "EVNIA 27M2N6550PF 27英寸 WOLED",
+    "platform": "京东",
+    "url": "https://item.jd.com/100238903283.html",
+    "sku": "100238903283",
+    "spec": "27寸/2K/240Hz/WOLED/0.03ms/HDR/HDMI2.1"
+  },
+  {
+    "id": "monitor_飞利浦_evnia_27m2n6550pf_27英寸_woled_smzdm",
+    "category": "显示器",
+    "brand": "飞利浦",
+    "model": "EVNIA 27M2N6550PF 27英寸 WOLED",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E9%A3%9E%E5%88%A9%E6%B5%A627M2N6550PF",
+    "sku": "search",
+    "spec": "27寸/2K/240Hz/WOLED/0.03ms/HDR/HDMI2.1"
+  },
+  {
+    "id": "keyboard_罗技_g610_机械键盘_红轴_jd",
+    "category": "键盘",
+    "brand": "罗技",
+    "model": "G610 机械键盘 红轴",
+    "platform": "京东",
+    "url": "https://item.jd.com/100005302263.html",
+    "sku": "100005302263",
+    "spec": "104键/红轴/白色背光/有线/多媒体按键"
+  },
+  {
+    "id": "keyboard_罗技_g610_机械键盘_红轴_smzdm",
+    "category": "键盘",
+    "brand": "罗技",
+    "model": "G610 机械键盘 红轴",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E7%BD%97%E6%8A%80G610",
+    "sku": "search",
+    "spec": "104键/红轴/白色背光/有线/多媒体按键"
+  },
+  {
+    "id": "keyboard_樱桃_mx_3_0s_tkl_红轴_jd",
+    "category": "键盘",
+    "brand": "樱桃",
+    "model": "MX 3.0S TKL 红轴",
+    "platform": "京东",
+    "url": "https://item.jd.com/100035362836.html",
+    "sku": "100035362836",
+    "spec": "87键/红轴/无光/铝合金外壳/有线"
+  },
+  {
+    "id": "keyboard_樱桃_mx_3_0s_tkl_红轴_smzdm",
+    "category": "键盘",
+    "brand": "樱桃",
+    "model": "MX 3.0S TKL 红轴",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E6%A8%B1%E6%A1%83MX3.0S",
+    "sku": "search",
+    "spec": "87键/红轴/无光/铝合金外壳/有线"
+  },
+  {
+    "id": "keyboard_雷蛇_黑寡妇v3_竞技版_绿轴_jd",
+    "category": "键盘",
+    "brand": "雷蛇",
+    "model": "黑寡妇V3 竞技版 绿轴",
+    "platform": "京东",
+    "url": "https://item.jd.com/100008455423.html",
+    "sku": "100008455423",
+    "spec": "87键/绿轴/RGB背光/有线/多媒体滚轮"
+  },
+  {
+    "id": "keyboard_雷蛇_黑寡妇v3_竞技版_绿轴_smzdm",
+    "category": "键盘",
+    "brand": "雷蛇",
+    "model": "黑寡妇V3 竞技版 绿轴",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E9%9B%B7%E8%9B%87%E9%BB%91%E5%AF%A1%E5%A6%87V3",
+    "sku": "search",
+    "spec": "87键/绿轴/RGB背光/有线/多媒体滚轮"
+  },
+  {
+    "id": "keyboard_vgn_v98pro_v3_冰川轴_jd",
+    "category": "键盘",
+    "brand": "VGN",
+    "model": "V98Pro V3 冰川轴",
+    "platform": "京东",
+    "url": "https://item.jd.com/10188206167028.html",
+    "sku": "10188206167028",
+    "spec": "99键/三模/冰川轴/Gasket结构/10000mAh电池"
+  },
+  {
+    "id": "keyboard_vgn_v98pro_v3_冰川轴_smzdm",
+    "category": "键盘",
+    "brand": "VGN",
+    "model": "V98Pro V3 冰川轴",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=VGN%20V98Pro",
+    "sku": "search",
+    "spec": "99键/三模/冰川轴/Gasket结构/10000mAh电池"
+  },
+  {
+    "id": "mouse_罗技_g502_hero_主宰者_jd",
+    "category": "鼠标",
+    "brand": "罗技",
+    "model": "G502 HERO 主宰者",
+    "platform": "京东",
+    "url": "https://item.jd.com/100001691967.html",
+    "sku": "100001691967",
+    "spec": "有线/HERO 25K传感器/11个可编程按键/配重系统"
+  },
+  {
+    "id": "mouse_罗技_g502_hero_主宰者_smzdm",
+    "category": "鼠标",
+    "brand": "罗技",
+    "model": "G502 HERO 主宰者",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E7%BD%97%E6%8A%80G502",
+    "sku": "search",
+    "spec": "有线/HERO 25K传感器/11个可编程按键/配重系统"
+  },
+  {
+    "id": "mouse_雷蛇_毒蝰v2_pro_专业版_jd",
+    "category": "鼠标",
+    "brand": "雷蛇",
+    "model": "毒蝰V2 Pro 专业版",
+    "platform": "京东",
+    "url": "https://item.jd.com/10051879582889.html",
+    "sku": "10051879582889",
+    "spec": "无线/FOCUS PRO 30K传感器/58g轻量化/8000Hz轮询率"
+  },
+  {
+    "id": "mouse_雷蛇_毒蝰v2_pro_专业版_smzdm",
+    "category": "鼠标",
+    "brand": "雷蛇",
+    "model": "毒蝰V2 Pro 专业版",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E9%9B%B7%E8%9B%87%E6%AF%92%E8%9D%B0V2Pro",
+    "sku": "search",
+    "spec": "无线/FOCUS PRO 30K传感器/58g轻量化/8000Hz轮询率"
+  },
+  {
+    "id": "mouse_罗技_g_pro_x_superlight_二代_黑色_jd",
+    "category": "鼠标",
+    "brand": "罗技",
+    "model": "G PRO X SUPERLIGHT 二代 黑色",
+    "platform": "京东",
+    "url": "https://item.jd.com/10184649426413.html",
+    "sku": "10184649426413",
+    "spec": "无线/HERO 25K传感器/63g轻量化/LIGHTSPEED"
+  },
+  {
+    "id": "mouse_罗技_g_pro_x_superlight_二代_黑色_smzdm",
+    "category": "鼠标",
+    "brand": "罗技",
+    "model": "G PRO X SUPERLIGHT 二代 黑色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E7%BD%97%E6%8A%80GPW%E4%BA%8C%E4%BB%A3",
+    "sku": "search",
+    "spec": "无线/HERO 25K传感器/63g轻量化/LIGHTSPEED"
+  },
+  {
+    "id": "mouse_罗技_g304_白色_jd",
+    "category": "鼠标",
+    "brand": "罗技",
+    "model": "G304 白色",
+    "platform": "京东",
+    "url": "https://item.jd.com/10190435626516.html",
+    "sku": "10190435626516",
+    "spec": "无线/HERO传感器/12000DPI/6键/AA电池续航9个月"
+  },
+  {
+    "id": "mouse_罗技_g304_白色_smzdm",
+    "category": "鼠标",
+    "brand": "罗技",
+    "model": "G304 白色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E7%BD%97%E6%8A%80G304",
+    "sku": "search",
+    "spec": "无线/HERO传感器/12000DPI/6键/AA电池续航9个月"
+  },
+  {
+    "id": "mouse_达尔优_a900_白色_jd",
+    "category": "鼠标",
+    "brand": "达尔优",
+    "model": "A900 白色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100035157284.html",
+    "sku": "100035157284",
+    "spec": "三模/PAW3370传感器/KBS3.0按键/轻量化/快充"
+  },
+  {
+    "id": "mouse_达尔优_a900_白色_smzdm",
+    "category": "鼠标",
+    "brand": "达尔优",
+    "model": "A900 白色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E8%BE%BE%E5%B0%94%E4%BC%98A900",
+    "sku": "search",
+    "spec": "三模/PAW3370传感器/KBS3.0按键/轻量化/快充"
+  },
+  {
+    "id": "ram_金士顿_fury_64gb_32gx2__ddr5_6000_超级野兽_白色_jd",
+    "category": "内存",
+    "brand": "金士顿",
+    "model": "FURY 64GB(32Gx2) DDR5 6000 超级野兽 白色",
+    "platform": "京东",
+    "url": "https://item.jd.com/100092807659.html",
+    "sku": "100092807659",
+    "spec": "64GB(32Gx2)/DDR5 6000MHz/CL30/海力士A-die/白色"
+  },
+  {
+    "id": "ram_金士顿_fury_64gb_32gx2__ddr5_6000_超级野兽_白色_smzdm",
+    "category": "内存",
+    "brand": "金士顿",
+    "model": "FURY 64GB(32Gx2) DDR5 6000 超级野兽 白色",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E9%87%91%E5%A3%AB%E9%A1%BFFURY%20DDR5%206000%2032Gx2",
+    "sku": "search",
+    "spec": "64GB(32Gx2)/DDR5 6000MHz/CL30/海力士A-die/白色"
+  },
+  {
+    "id": "ram_威刚_xpg_龙耀_64g_32gx2__ddr5_6400_d500g_jd",
+    "category": "内存",
+    "brand": "威刚",
+    "model": "XPG 龙耀 64G(32Gx2) DDR5 6400 D500G",
+    "platform": "京东",
+    "url": "https://item.jd.com/100047850836.html",
+    "sku": "100047850836",
+    "spec": "64GB(32Gx2)/DDR5 6400MHz/CL32/海力士A-die/RGB灯条"
+  },
+  {
+    "id": "ram_威刚_xpg_龙耀_64g_32gx2__ddr5_6400_d500g_smzdm",
+    "category": "内存",
+    "brand": "威刚",
+    "model": "XPG 龙耀 64G(32Gx2) DDR5 6400 D500G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%A8%81%E5%88%9AXPG%E9%BE%99%E8%80%80DDR5%206400",
+    "sku": "search",
+    "spec": "64GB(32Gx2)/DDR5 6400MHz/CL32/海力士A-die/RGB灯条"
+  },
+  {
+    "id": "hdd_东芝_p300_3tb_hdwd130_jd",
+    "category": "机械硬盘",
+    "brand": "东芝",
+    "model": "P300 3TB HDWD130",
+    "platform": "京东",
+    "url": "https://item.jd.com/2066790.html",
+    "sku": "2066790",
+    "spec": "3TB/3.5寸/SATA/7200转/64MB/PMR垂直记录"
+  },
+  {
+    "id": "hdd_东芝_p300_3tb_hdwd130_smzdm",
+    "category": "机械硬盘",
+    "brand": "东芝",
+    "model": "P300 3TB HDWD130",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E4%B8%9C%E8%8A%9DP300%203TB",
+    "sku": "search",
+    "spec": "3TB/3.5寸/SATA/7200转/64MB/PMR垂直记录"
+  },
+  {
+    "id": "hdd_希捷_酷狼pro_4tb_st4000nt001_jd",
+    "category": "机械硬盘",
+    "brand": "希捷",
+    "model": "酷狼PRO 4TB ST4000NT001",
+    "platform": "京东",
+    "url": "https://item.jd.com/10101205020920.html",
+    "sku": "10101205020920",
+    "spec": "4TB/3.5寸/SATA/7200转/128MB/NAS专用/CMR/5年质保"
+  },
+  {
+    "id": "hdd_希捷_酷狼pro_4tb_st4000nt001_smzdm",
+    "category": "机械硬盘",
+    "brand": "希捷",
+    "model": "酷狼PRO 4TB ST4000NT001",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E5%B8%8C%E6%8D%B7%E9%85%B7%E7%8B%BCPRO%204TB",
+    "sku": "search",
+    "spec": "4TB/3.5寸/SATA/7200转/128MB/NAS专用/CMR/5年质保"
+  },
+  {
+    "id": "mb_技嘉_b760m_aorus_elite_ax_小雕_ddr5_jd",
+    "category": "主板",
+    "brand": "技嘉",
+    "model": "B760M AORUS ELITE AX 小雕 DDR5",
+    "platform": "京东",
+    "url": "https://item.jd.com/100050619203.html",
+    "sku": "100050619203",
+    "spec": "M-ATX/LGA1700/DDR5/WiFi6E/2.5G网口/PCIe4.0"
+  },
+  {
+    "id": "mb_技嘉_b760m_aorus_elite_ax_小雕_ddr5_smzdm",
+    "category": "主板",
+    "brand": "技嘉",
+    "model": "B760M AORUS ELITE AX 小雕 DDR5",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=%E6%8A%80%E5%98%89B760M%E5%B0%8F%E9%9B%95",
+    "sku": "search",
+    "spec": "M-ATX/LGA1700/DDR5/WiFi6E/2.5G网口/PCIe4.0"
+  },
+  {
+    "id": "monitor_ktc_h27v22_27英寸_2k_165hz_jd",
+    "category": "显示器",
+    "brand": "KTC",
+    "model": "H27V22 27英寸 2K 165Hz",
+    "platform": "京东",
+    "url": "https://item.jd.com/100022813045.html",
+    "sku": "100022813045",
+    "spec": "27寸/2K/165Hz/FastIPS/1ms/HDR400/Type-C"
+  },
+  {
+    "id": "monitor_ktc_h27v22_27英寸_2k_165hz_smzdm",
+    "category": "显示器",
+    "brand": "KTC",
+    "model": "H27V22 27英寸 2K 165Hz",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=KTC%20H27V22",
+    "sku": "search",
+    "spec": "27寸/2K/165Hz/FastIPS/1ms/HDR400/Type-C"
+  },
+  {
+    "id": "keyboard_rk_r98_三模_烟雨轴v2_火蓝_jd",
+    "category": "键盘",
+    "brand": "RK",
+    "model": "R98 三模 烟雨轴V2 火蓝",
+    "platform": "京东",
+    "url": "https://item.jd.com/10073105611912.html",
+    "sku": "10073105611912",
+    "spec": "98键/三模/热插拔/烟雨轴V2/Gasket结构/客制化"
+  },
+  {
+    "id": "keyboard_rk_r98_三模_烟雨轴v2_火蓝_smzdm",
+    "category": "键盘",
+    "brand": "RK",
+    "model": "R98 三模 烟雨轴V2 火蓝",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=RK%20R98",
+    "sku": "search",
+    "spec": "98键/三模/热插拔/烟雨轴V2/Gasket结构/客制化"
+  },
+  {
+    "id": "CPU_AMD_r7_9800x3d_jd",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R7 9800X3D",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "8核16线程/5.2GHz/96MB 3D缓存/120W"
+  },
+  {
+    "id": "CPU_AMD_r7_9800x3d_smzdm",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R7 9800X3D",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=R7%209800X3D",
+    "sku": "search",
+    "spec": "8核16线程/5.2GHz/96MB 3D缓存/120W"
+  },
+  {
+    "id": "CPU_AMD_r9_9950x3d_jd",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R9 9950X3D",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "16核32线程/5.7GHz/128MB 3D缓存/170W"
+  },
+  {
+    "id": "CPU_AMD_r9_9950x3d_smzdm",
+    "category": "CPU",
+    "brand": "AMD",
+    "model": "R9 9950X3D",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=R9%209950X3D",
+    "sku": "search",
+    "spec": "16核32线程/5.7GHz/128MB 3D缓存/170W"
+  },
+  {
+    "id": "CPU_Intel_core_ultra_285k_jd",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "Core Ultra 285K",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "24核24线程/5.7GHz/Arrow Lake-S"
+  },
+  {
+    "id": "CPU_Intel_core_ultra_285k_smzdm",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "Core Ultra 285K",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=Core%20Ultra%20285K",
+    "sku": "search",
+    "spec": "24核24线程/5.7GHz/Arrow Lake-S"
+  },
+  {
+    "id": "CPU_Intel_i5-12600kf_jd",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i5-12600KF",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "10核16线程/4.9GHz/20MB L3/125W"
+  },
+  {
+    "id": "CPU_Intel_i5-12600kf_smzdm",
+    "category": "CPU",
+    "brand": "Intel",
+    "model": "i5-12600KF",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=i5-12600KF",
+    "sku": "search",
+    "spec": "10核16线程/4.9GHz/20MB L3/125W"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5060ti_16g_jd",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5060Ti 16G",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "16GB GDDR7/4608 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5060ti_16g_smzdm",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5060Ti 16G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=RTX%205060Ti%2016G",
+    "sku": "search",
+    "spec": "16GB GDDR7/4608 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5070_12g_jd",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5070 12G",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "12GB GDDR7/6144 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5070_12g_smzdm",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5070 12G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=RTX%205070%2012G",
+    "sku": "search",
+    "spec": "12GB GDDR7/6144 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5070ti_16g_jd",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5070Ti 16G",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "16GB GDDR7/8960 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5070ti_16g_smzdm",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5070Ti 16G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=RTX%205070Ti%2016G",
+    "sku": "search",
+    "spec": "16GB GDDR7/8960 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5080_16g_jd",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5080 16G",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "16GB GDDR7/10752 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5080_16g_smzdm",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5080 16G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=RTX%205080%2016G",
+    "sku": "search",
+    "spec": "16GB GDDR7/10752 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5090_32g_jd",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5090 32G",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "32GB GDDR7/21760 CUDA"
+  },
+  {
+    "id": "显卡_NVIDIA_rtx_5090_32g_smzdm",
+    "category": "显卡",
+    "brand": "NVIDIA",
+    "model": "RTX 5090 32G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=RTX%205090%2032G",
+    "sku": "search",
+    "spec": "32GB GDDR7/21760 CUDA"
+  },
+  {
+    "id": "显卡_AMD_rx_9070xt_16g_jd",
+    "category": "显卡",
+    "brand": "AMD",
+    "model": "RX 9070XT 16G",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "16GB GDDR6/RDNA4"
+  },
+  {
+    "id": "显卡_AMD_rx_9070xt_16g_smzdm",
+    "category": "显卡",
+    "brand": "AMD",
+    "model": "RX 9070XT 16G",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=RX%209070XT%2016G",
+    "sku": "search",
+    "spec": "16GB GDDR6/RDNA4"
+  },
+  {
+    "id": "固态硬盘_Samsung_990_pro_2tb_jd",
+    "category": "固态硬盘",
+    "brand": "Samsung",
+    "model": "990 PRO 2TB",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "PCIe4.0/7450MB/s/TLC"
+  },
+  {
+    "id": "固态硬盘_Samsung_990_pro_2tb_smzdm",
+    "category": "固态硬盘",
+    "brand": "Samsung",
+    "model": "990 PRO 2TB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=990%20PRO%202TB",
+    "sku": "search",
+    "spec": "PCIe4.0/7450MB/s/TLC"
+  },
+  {
+    "id": "固态硬盘_致态_tipro9000_2tb_jd",
+    "category": "固态硬盘",
+    "brand": "致态",
+    "model": "TiPro9000 2TB",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "PCIe5.0/14000MB/s/TLC"
+  },
+  {
+    "id": "固态硬盘_致态_tipro9000_2tb_smzdm",
+    "category": "固态硬盘",
+    "brand": "致态",
+    "model": "TiPro9000 2TB",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=TiPro9000%202TB",
+    "sku": "search",
+    "spec": "PCIe5.0/14000MB/s/TLC"
+  },
+  {
+    "id": "主板_ASUS_tuf_gaming_x870-plus_wifi_jd",
+    "category": "主板",
+    "brand": "ASUS",
+    "model": "TUF GAMING X870-PLUS WIFI",
+    "platform": "京东",
+    "url": "",
+    "sku": "search",
+    "spec": "AM5/X870/DDR5"
+  },
+  {
+    "id": "主板_ASUS_tuf_gaming_x870-plus_wifi_smzdm",
+    "category": "主板",
+    "brand": "ASUS",
+    "model": "TUF GAMING X870-PLUS WIFI",
+    "platform": "什么值得买",
+    "url": "https://search.smzdm.com/?c=home&s=TUF%20GAMING%20X870-PLUS%20WIFI",
+    "sku": "search",
+    "spec": "AM5/X870/DDR5"
+  }
+]
