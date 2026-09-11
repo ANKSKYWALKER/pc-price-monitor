@@ -275,8 +275,8 @@ document.getElementById("lastUpdate").textContent = fmtTime(latest.fetch_time);
   const bar = document.getElementById("statsBar");
   bar.innerHTML = `
     <div class="stat-card"><div class="label">监控SKU总数</div><div class="value">${items.length}</div></div>
-    <div class="stat-card"><div class="label">抓取成功</div><div class="value" style="color:#43a047">${success}</div></div>
-    <div class="stat-card"><div class="label">抓取失败</div><div class="value" style="color:#e53935">${failed}</div></div>
+    <div class="stat-card"><div class="label">有价记录</div><div class="value" style="color:#43a047">${success}</div></div>
+    <div class="stat-card"><div class="label">平台无记录</div><div class="value" style="color:#e53935">${failed}</div></div>
     <div class="stat-card"><div class="label">上涨 / 下跌 / 持平</div><div class="value"><span class="up">${up}↑</span> / <span class="down">${down}↓</span> / <span class="flat">${flat}-</span></div></div>
   `;
 })();
