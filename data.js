@@ -1,8 +1,8 @@
 // 电脑配件价格监控 - 自动生成数据文件, 请勿手动编辑
-// 生成时间: 2026-09-23 11:19:19
+// 生成时间: 2026-09-23 14:24:43
 window.PRICE_DATA = {
   "latest": {
-    "fetch_time": "2026-09-23T11:19:19.686972+08:00",
+    "fetch_time": "2026-09-23T14:23:38.041242+08:00",
     "items": [
       {
         "id": "cpu_intel_i5_14600kf_jd",
@@ -1697,11 +1697,11 @@ window.PRICE_DATA = {
         "model": "RTX 5090 32G",
         "platform": "什么值得买",
         "url": "https://search.smzdm.com/?c=home&s=RTX%205090%2032G",
-        "price": null,
-        "price_label": null,
+        "price": 39999.0,
+        "price_label": "到手价",
         "original_price": null,
-        "status": "failed",
-        "note": "SMZDM未匹配到型号[RTX 5090 32G]",
+        "status": "success",
+        "note": "SMZDM匹配: 英伟达 RTX5090 32G 华硕 夜神 显卡 @京东",
         "offers": []
       },
       {
@@ -23006,7 +23006,25 @@ window.PRICE_DATA = {
           "offers": []
         }
       ]
+    },
+    {
+      "fetch_time": "2026-09-23T14:23:38.041242+08:00",
+      "items": [
+        {
+          "id": "显卡_NVIDIA_rtx_5090_32g_smzdm",
+          "category": "显卡",
+          "model": "RTX 5090 32G",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=RTX%205090%2032G",
+          "price": 39999.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 英伟达 RTX5090 32G 华硕 夜神 显卡 @京东",
+          "offers": []
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-23T11:19:19.708741+08:00"
+  "generated_at": "2026-09-23T14:24:43.718988+08:00"
 };
