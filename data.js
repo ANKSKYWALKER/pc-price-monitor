@@ -1,8 +1,8 @@
 // 电脑配件价格监控 - 自动生成数据文件, 请勿手动编辑
-// 生成时间: 2026-09-21 10:49:16
+// 生成时间: 2026-09-23 11:19:19
 window.PRICE_DATA = {
   "latest": {
-    "fetch_time": "2026-09-21T10:49:16.560673+08:00",
+    "fetch_time": "2026-09-23T11:19:19.686972+08:00",
     "items": [
       {
         "id": "cpu_intel_i5_14600kf_jd",
@@ -71,7 +71,7 @@ window.PRICE_DATA = {
           {
             "price": 1439.0,
             "shop": "京东",
-            "time": "09-18 13:35",
+            "time": "01:58",
             "title": "好价 英特尔 酷睿i5-14600KF CPU 3.5GHz 14核20线程 "
           }
         ]
@@ -111,7 +111,7 @@ window.PRICE_DATA = {
           {
             "price": 3399.0,
             "shop": "京东",
-            "time": "08-26 14:00",
+            "time": null,
             "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
           },
           {
@@ -121,15 +121,15 @@ window.PRICE_DATA = {
             "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
           },
           {
-            "price": 3349.0,
+            "price": 3399.0,
             "shop": "京东",
-            "time": "06-30 16:51",
+            "time": "08-26 14:00",
             "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
           },
           {
-            "price": 3399.0,
+            "price": 3349.0,
             "shop": "京东",
-            "time": "08-21 23:32",
+            "time": "06-30 16:51",
             "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
           },
           {
@@ -182,6 +182,12 @@ window.PRICE_DATA = {
             "shop": "天猫精选",
             "time": "07-07 23:10",
             "title": "好价 AMD 锐龙R5 7500F CPU 3.7GHz 6核12线程 "
+          },
+          {
+            "price": 1999.0,
+            "shop": "",
+            "time": "09-01 12:35",
+            "title": "文章 Ultra 5 230F VS R5 7500F两颗千元内CPU怎么选？哪个性价比更高 主流处理器推荐性价比神U之"
           }
         ]
       },
@@ -191,12 +197,25 @@ window.PRICE_DATA = {
         "model": "R7 9700X",
         "platform": "什么值得买",
         "url": "https://search.smzdm.com/?c=home&s=R7-9700X",
-        "price": null,
-        "price_label": null,
+        "price": 1439.0,
+        "price_label": "到手价",
         "original_price": null,
-        "status": "failed",
-        "note": "SMZDM未匹配到型号[R7 9700X]",
-        "offers": []
+        "status": "success",
+        "note": "SMZDM匹配: 好价 AMD R7 9700X CPU 处理器  @京东",
+        "offers": [
+          {
+            "price": 1439.0,
+            "shop": "京东",
+            "time": "09-16 14:31",
+            "title": "好价 AMD R7 9700X CPU 处理器 "
+          },
+          {
+            "price": 1524.06,
+            "shop": "天猫精选",
+            "time": "07-07 10:27",
+            "title": "好价 AMD 锐龙5 9600X R7 9700X 9800X3D全新盒装CPU电脑处理器电竞游戏 "
+          }
+        ]
       },
       {
         "id": "cpu_amd_r5_5600_smzdm",
@@ -204,17 +223,17 @@ window.PRICE_DATA = {
         "model": "R5 5600",
         "platform": "什么值得买",
         "url": "https://search.smzdm.com/?c=home&s=R5-5600",
-        "price": 658.0,
+        "price": 699.0,
         "price_label": "到手价",
         "original_price": null,
         "status": "success",
-        "note": "SMZDM匹配: 好价 AMD R5 5600 CPU盒装  @拼多多",
+        "note": "SMZDM匹配: 好价 AMD R5-5600 CPU 3.9GHz 6核12线程 散片  @京东",
         "offers": [
           {
-            "price": 658.0,
-            "shop": "拼多多",
-            "time": "08-31 10:16",
-            "title": "好价 AMD R5 5600 CPU盒装 "
+            "price": 699.0,
+            "shop": "京东",
+            "time": "09-16 17:10",
+            "title": "好价 AMD R5-5600 CPU 3.9GHz 6核12线程 散片 "
           }
         ]
       },
@@ -237,28 +256,22 @@ window.PRICE_DATA = {
             "title": "好价 AMD 锐龙R7-7800X3D CPU 4.2 GHz 8核16线程 "
           },
           {
-            "price": 1609.0,
-            "shop": "拼多多",
-            "time": "09-09 11:29",
-            "title": "好价 AMD R7 7800X3D全新散片 "
-          },
-          {
-            "price": 1759.0,
-            "shop": "拼多多",
-            "time": "09-10 09:21",
-            "title": "好价 AMD 锐龙R7 7800X3D盒装处理器16线程全新8核CPU游戏电脑 "
-          },
-          {
             "price": 982.35,
             "shop": "天猫精选",
             "time": "07-07 17:20",
             "title": "好价 AMD 锐龙R5 7500F/7600X R7 7800X3D新盒装CPU电脑处理器办公游戏 "
           },
           {
-            "price": 1764.0,
-            "shop": "拼多多",
-            "time": "08-21 14:51",
-            "title": "好价 AMD RYZEN AMD锐龙R7 7800X3D盒装处理器全新8核心16线程电竞CPU "
+            "price": 2199.0,
+            "shop": "京东",
+            "time": "07-08 19:04",
+            "title": "好价 AMD 锐龙R7-7800X3D CPU 4.2 GHz 8核16线程 "
+          },
+          {
+            "price": 2177.0,
+            "shop": "什么值得买",
+            "time": "07-16 19:49",
+            "title": "好价 AMD 锐龙 盒装CPU处理器 R7 7800X3D盒装 "
           }
         ]
       },
@@ -319,13 +332,13 @@ window.PRICE_DATA = {
             "title": "好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持CPU Ultra U7-265K 24"
           },
           {
-            "price": 1419.0,
+            "price": 1449.0,
             "shop": "京东",
             "time": null,
             "title": "好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持CPU Ultra U7-265K 24"
           },
           {
-            "price": 1449.0,
+            "price": 1419.0,
             "shop": "京东",
             "time": null,
             "title": "好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持CPU Ultra U7-265K 24"
@@ -377,15 +390,15 @@ window.PRICE_DATA = {
           },
           {
             "price": 2399.0,
+            "shop": "",
+            "time": null,
+            "title": "好价 COLORFUL 七彩虹 显卡RTX3060/4060/4060Ti/4070 七彩虹战斧GeForce-RTX-"
+          },
+          {
+            "price": 2399.0,
             "shop": "京东",
             "time": null,
             "title": "好价 COLORFUL 七彩虹 RTX 4060 8G超频电竞游戏独立显卡 战斧 DUO "
-          },
-          {
-            "price": 2219.0,
-            "shop": "拼多多",
-            "time": null,
-            "title": "好价 七彩虹 COLORFUL RTX4060 战斧DUO 8G 独立显卡 "
           }
         ]
       },
@@ -560,12 +573,6 @@ window.PRICE_DATA = {
             "shop": "亚马逊",
             "time": null,
             "title": "好价 Samsung 三星 990 PRO 1TB固态硬盘 PCIe4.0 NVMe M.2接口 高速读写 PS5兼容 "
-          },
-          {
-            "price": 2317.5,
-            "shop": "亚马逊",
-            "time": "06-23 12:48",
-            "title": "好价 Samsung 三星 990 PRO 1TB带散热片固态硬盘 PCIe4.0 M.2接口 高速读写 PS5兼容 发"
           }
         ]
       },
@@ -638,12 +645,6 @@ window.PRICE_DATA = {
             "shop": "天猫精选",
             "time": "09-07 15:18",
             "title": "好价 技嘉 宏碁 GM7 致态Tiplus7100s 1TB 2TB 佰维 光威 M.2 NVMe 固态硬盘 "
-          },
-          {
-            "price": 1269.0,
-            "shop": "京东",
-            "time": "07-09 15:09",
-            "title": "好价 致态 TiPlus7100s 1TB NVMe M.2固态硬盘 "
           }
         ]
       },
@@ -756,23 +757,23 @@ window.PRICE_DATA = {
         "model": "NE750 金牌全模组",
         "platform": "什么值得买",
         "url": "https://search.smzdm.com/?c=home&s=%E5%AE%89%E9%92%9B%E5%85%8BNE750",
-        "price": 539.0,
+        "price": 469.0,
         "price_label": "到手价",
         "original_price": null,
         "status": "success",
-        "note": "SMZDM匹配: 好价 移动端：Antec 安钛克 NE750 金牌（90%）全模组ATX电源 7 @京东",
+        "note": "SMZDM匹配: 好价 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色  @京东",
         "offers": [
-          {
-            "price": 539.0,
-            "shop": "京东",
-            "time": null,
-            "title": "好价 移动端：Antec 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
-          },
           {
             "price": 469.0,
             "shop": "京东",
             "time": null,
             "title": "好价 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
+          },
+          {
+            "price": 539.0,
+            "shop": "京东",
+            "time": null,
+            "title": "好价 移动端：Antec 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
           },
           {
             "price": 499.0,
@@ -1151,27 +1152,27 @@ window.PRICE_DATA = {
             "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
           },
           {
-            "price": 45.9,
-            "shop": "京东",
-            "time": "09-06 12:52",
-            "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
-          },
-          {
             "price": 63.9,
             "shop": "京东",
             "time": "07-13 00:00",
             "title": "好价 利民 TL-C12CW-S ARGB 120mm 机箱散热风扇 白色 3个装 "
           },
           {
-            "price": 45.9,
+            "price": 79.9,
             "shop": "京东",
-            "time": "07-12 23:59",
+            "time": "09-22 12:32",
             "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
           },
           {
             "price": 45.9,
             "shop": "京东",
-            "time": "07-01 23:24",
+            "time": "09-06 12:52",
+            "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
+          },
+          {
+            "price": 45.9,
+            "shop": "京东",
+            "time": "07-12 23:59",
             "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
           }
         ]
@@ -1563,12 +1564,6 @@ window.PRICE_DATA = {
             "shop": "京东",
             "time": "06-28 03:10",
             "title": "好价 AMD 锐龙R7-9800X3D CPU 4.7GHz 8核16线程 "
-          },
-          {
-            "price": 2479.0,
-            "shop": "拼多多",
-            "time": "06-26 17:15",
-            "title": "好价 百亿补贴：AMD 锐龙R7 9800X3D散片全新CPU高性能游戏处理器 "
           }
         ]
       },
@@ -1588,12 +1583,6 @@ window.PRICE_DATA = {
             "price": 4779.0,
             "shop": "京东",
             "time": "08-18 14:29",
-            "title": "好价 AMD 锐龙R9-9950X3D CPU 4.3GHz 16核32线程 "
-          },
-          {
-            "price": 4841.0,
-            "shop": "京东",
-            "time": "06-27 14:12",
             "title": "好价 AMD 锐龙R9-9950X3D CPU 4.3GHz 16核32线程 "
           }
         ]
@@ -1721,19 +1710,12 @@ window.PRICE_DATA = {
         "model": "RX 9070XT 16G",
         "platform": "什么值得买",
         "url": "https://search.smzdm.com/?c=home&s=RX%209070XT%2016G",
-        "price": 6199.0,
-        "price_label": "到手价",
+        "price": null,
+        "price_label": null,
         "original_price": null,
-        "status": "success",
-        "note": "SMZDM匹配: 好价 瀚铠RX9070XT-16G超合金ULTRA(全新未拆国行 三年个人送保) @拼多多",
-        "offers": [
-          {
-            "price": 6199.0,
-            "shop": "拼多多",
-            "time": "09-17 08:53",
-            "title": "好价 瀚铠RX9070XT-16G超合金ULTRA(全新未拆国行 三年个人送保) "
-          }
-        ]
+        "status": "failed",
+        "note": "SMZDM未匹配到型号[RX 9070XT 16G]",
+        "offers": []
       },
       {
         "id": "固态硬盘_Samsung_990_pro_2tb_smzdm",
@@ -21731,7 +21713,1300 @@ window.PRICE_DATA = {
           "offers": []
         }
       ]
+    },
+    {
+      "fetch_time": "2026-09-23T11:19:19.686972+08:00",
+      "items": [
+        {
+          "id": "cpu_intel_i5_14600kf_smzdm",
+          "category": "CPU",
+          "model": "i5-14600KF",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=i5-14600KF",
+          "price": 1439.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 英特尔 酷睿i5-14600KF CPU 3.5GHz 14核20线程  @京东",
+          "offers": [
+            {
+              "price": 1439.0,
+              "shop": "京东",
+              "time": "01:58",
+              "title": "好价 英特尔 酷睿i5-14600KF CPU 3.5GHz 14核20线程 "
+            }
+          ]
+        },
+        {
+          "id": "cpu_intel_i7_14700kf_smzdm",
+          "category": "CPU",
+          "model": "i7-14700KF",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=i7-14700KF",
+          "price": 2927.54,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 英特尔 酷睿™ i7-14700KF 新款处理器 20 核(8 个 P 核 @京东",
+          "offers": [
+            {
+              "price": 2927.54,
+              "shop": "京东",
+              "time": "09-02 11:16",
+              "title": "好价 英特尔 酷睿™ i7-14700KF 新款处理器 20 核(8 个 P 核 + 12 个 E 核) - 解锁 "
+            }
+          ]
+        },
+        {
+          "id": "cpu_intel_i9_14900kf_smzdm",
+          "category": "CPU",
+          "model": "i9-14900KF",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=i9-14900KF",
+          "price": 3399.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程  @京东",
+          "offers": [
+            {
+              "price": 3399.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
+            },
+            {
+              "price": 3399.0,
+              "shop": "京东",
+              "time": "08-31 10:15",
+              "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
+            },
+            {
+              "price": 3399.0,
+              "shop": "京东",
+              "time": "08-26 14:00",
+              "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
+            },
+            {
+              "price": 3349.0,
+              "shop": "京东",
+              "time": "06-30 16:51",
+              "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
+            },
+            {
+              "price": 3111.55,
+              "shop": "京东",
+              "time": "06-30 17:05",
+              "title": "好价 英特尔 酷睿i9-14900KF CPU 3.2GHz 24核32线程 "
+            }
+          ]
+        },
+        {
+          "id": "cpu_intel_i5_13400f_smzdm",
+          "category": "CPU",
+          "model": "i5-13400F",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=i5-13400F",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[i5-13400F]",
+          "offers": []
+        },
+        {
+          "id": "cpu_amd_r5_7500f_smzdm",
+          "category": "CPU",
+          "model": "R5 7500F",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=R5-7500F",
+          "price": 829.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 AMD 锐龙R5 7500F CPU 3.7GHz 6核12线程  @京东",
+          "offers": [
+            {
+              "price": 829.0,
+              "shop": "京东",
+              "time": "06-27 14:51",
+              "title": "好价 AMD 锐龙R5 7500F CPU 3.7GHz 6核12线程 "
+            },
+            {
+              "price": 982.35,
+              "shop": "天猫精选",
+              "time": "07-07 17:20",
+              "title": "好价 AMD 锐龙R5 7500F/7600X R7 7800X3D新盒装CPU电脑处理器办公游戏 "
+            },
+            {
+              "price": 839.0,
+              "shop": "天猫精选",
+              "time": "07-07 23:10",
+              "title": "好价 AMD 锐龙R5 7500F CPU 3.7GHz 6核12线程 "
+            },
+            {
+              "price": 1999.0,
+              "shop": "",
+              "time": "09-01 12:35",
+              "title": "文章 Ultra 5 230F VS R5 7500F两颗千元内CPU怎么选？哪个性价比更高 主流处理器推荐性价比神U之"
+            }
+          ]
+        },
+        {
+          "id": "cpu_amd_r7_9700x_smzdm",
+          "category": "CPU",
+          "model": "R7 9700X",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=R7-9700X",
+          "price": 1439.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 AMD R7 9700X CPU 处理器  @京东",
+          "offers": [
+            {
+              "price": 1439.0,
+              "shop": "京东",
+              "time": "09-16 14:31",
+              "title": "好价 AMD R7 9700X CPU 处理器 "
+            },
+            {
+              "price": 1524.06,
+              "shop": "天猫精选",
+              "time": "07-07 10:27",
+              "title": "好价 AMD 锐龙5 9600X R7 9700X 9800X3D全新盒装CPU电脑处理器电竞游戏 "
+            }
+          ]
+        },
+        {
+          "id": "cpu_amd_r5_5600_smzdm",
+          "category": "CPU",
+          "model": "R5 5600",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=R5-5600",
+          "price": 699.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 AMD R5-5600 CPU 3.9GHz 6核12线程 散片  @京东",
+          "offers": [
+            {
+              "price": 699.0,
+              "shop": "京东",
+              "time": "09-16 17:10",
+              "title": "好价 AMD R5-5600 CPU 3.9GHz 6核12线程 散片 "
+            }
+          ]
+        },
+        {
+          "id": "cpu_amd_r7_7800x3d_smzdm",
+          "category": "CPU",
+          "model": "R7 7800X3D",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=R7-7800X3D",
+          "price": 2199.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 AMD 锐龙R7-7800X3D CPU 4.2 GHz 8核16线程  @京东",
+          "offers": [
+            {
+              "price": 2199.0,
+              "shop": "京东",
+              "time": "07-12 01:07",
+              "title": "好价 AMD 锐龙R7-7800X3D CPU 4.2 GHz 8核16线程 "
+            },
+            {
+              "price": 982.35,
+              "shop": "天猫精选",
+              "time": "07-07 17:20",
+              "title": "好价 AMD 锐龙R5 7500F/7600X R7 7800X3D新盒装CPU电脑处理器办公游戏 "
+            },
+            {
+              "price": 2199.0,
+              "shop": "京东",
+              "time": "07-08 19:04",
+              "title": "好价 AMD 锐龙R7-7800X3D CPU 4.2 GHz 8核16线程 "
+            },
+            {
+              "price": 2177.0,
+              "shop": "什么值得买",
+              "time": "07-16 19:49",
+              "title": "好价 AMD 锐龙 盒装CPU处理器 R7 7800X3D盒装 "
+            }
+          ]
+        },
+        {
+          "id": "mb_微星_b760m_mortar_wifi_ii_smzdm",
+          "category": "主板",
+          "model": "B760M MORTAR WIFI II",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%BE%AE%E6%98%9FB760M%E8%BF%AB%E5%87%BB%E7%82%AE",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[B760M MORTAR WIFI II]",
+          "offers": []
+        },
+        {
+          "id": "mb_华硕_tuf_gaming_b760m_plus_wifi_d4_smzdm",
+          "category": "主板",
+          "model": "TUF GAMING B760M-PLUS WIFI D4",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95TUF%20B760M",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[TUF GAMING B760M-PLUS WIFI D4]",
+          "offers": []
+        },
+        {
+          "id": "mb_技嘉_b860m_aorus_pro_wifi_7_smzdm",
+          "category": "主板",
+          "model": "B860M AORUS PRO WIFI 7",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E6%8A%80%E5%98%89B860M",
+          "price": 1369.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持 @京东",
+          "offers": [
+            {
+              "price": 1369.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持CPU Ultra U7-265K 24"
+            },
+            {
+              "price": 1319.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持CPU Ultra U7-265K 24"
+            },
+            {
+              "price": 1449.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持CPU Ultra U7-265K 24"
+            },
+            {
+              "price": 1449.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持CPU Ultra U7-265K 24"
+            },
+            {
+              "price": 1419.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 技嘉 电竞雕B860M AORUS PRO WIFI7 DDR5主板 支持CPU Ultra U7-265K 24"
+            }
+          ]
+        },
+        {
+          "id": "mb_华硕_tuf_gaming_x670e_plus_wifi_smzdm",
+          "category": "主板",
+          "model": "TUF GAMING X670E-PLUS WIFI",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95X670E",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[TUF GAMING X670E-PLUS WIFI]",
+          "offers": []
+        },
+        {
+          "id": "gpu_七彩虹_rtx_4060_战斧_duo_8g_smzdm",
+          "category": "显卡",
+          "model": "RTX 4060 战斧 DUO 8G",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E4%B8%83%E5%BD%A9%E8%99%B9RTX4060%E6%88%98%E6%96%A7",
+          "price": 2024.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 COLORFUL 七彩虹 GeForce RTX 4060 战斧DUO 8 @淘宝",
+          "offers": [
+            {
+              "price": 2024.0,
+              "shop": "淘宝",
+              "time": null,
+              "title": "好价 COLORFUL 七彩虹 GeForce RTX 4060 战斧DUO 8G 双风扇显卡 "
+            },
+            {
+              "price": 2069.0,
+              "shop": "天猫精选",
+              "time": null,
+              "title": "好价 COLORFUL 七彩虹 GeForce RTX 4060 战斧DUO 8G 双风扇显卡 "
+            },
+            {
+              "price": 2399.0,
+              "shop": "",
+              "time": null,
+              "title": "好价 七彩虹 COLORFUL 显卡RTX3060/4060/4060Ti/4070 七彩虹战斧GeForce-RTX-"
+            },
+            {
+              "price": 2399.0,
+              "shop": "",
+              "time": null,
+              "title": "好价 COLORFUL 七彩虹 显卡RTX3060/4060/4060Ti/4070 七彩虹战斧GeForce-RTX-"
+            },
+            {
+              "price": 2399.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 COLORFUL 七彩虹 RTX 4060 8G超频电竞游戏独立显卡 战斧 DUO "
+            }
+          ]
+        },
+        {
+          "id": "gpu_华硕_dual_rtx4070_o12g_smzdm",
+          "category": "显卡",
+          "model": "DUAL RTX4070 O12G",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95DUAL%20RTX4070",
+          "price": 4549.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 ASUS 华硕 DUAL RTX4070 O12G 白雪豹OC显卡  @",
+          "offers": [
+            {
+              "price": 4549.0,
+              "shop": "",
+              "time": null,
+              "title": "好价 ASUS 华硕 DUAL RTX4070 O12G 白雪豹OC显卡 "
+            }
+          ]
+        },
+        {
+          "id": "gpu_华硕_tuf_rtx_4070_super_o12g_smzdm",
+          "category": "显卡",
+          "model": "TUF RTX 4070 SUPER O12G",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95RTX4070SUPER",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[TUF RTX 4070 SUPER O12G]",
+          "offers": []
+        },
+        {
+          "id": "ram_金士顿_fury_ddr5_6000_16gb_野兽_smzdm",
+          "category": "内存",
+          "model": "FURY DDR5 6000 16GB 野兽",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E9%87%91%E5%A3%AB%E9%A1%BFFURY%20DDR5%206000",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[FURY DDR5 6000 16GB 野兽]",
+          "offers": []
+        },
+        {
+          "id": "ssd_三星_990_pro_1tb_smzdm",
+          "category": "固态硬盘",
+          "model": "990 PRO 1TB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E4%B8%89%E6%98%9F990PRO",
+          "price": 2187.09,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 Samsung 三星 990 PRO 1TB固态硬盘 PCIe4.0 NV @亚马逊",
+          "offers": [
+            {
+              "price": 2187.09,
+              "shop": "亚马逊",
+              "time": null,
+              "title": "好价 Samsung 三星 990 PRO 1TB固态硬盘 PCIe4.0 NVMe M.2接口 高速读写 PS5兼容 "
+            }
+          ]
+        },
+        {
+          "id": "ssd_致态_tiplus7100_1tb_smzdm",
+          "category": "固态硬盘",
+          "model": "TiPlus7100 1TB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E8%87%B4%E6%80%81TiPlus7100",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[TiPlus7100 1TB]",
+          "offers": []
+        },
+        {
+          "id": "ssd_西部数据_sn850x_1tb_smzdm",
+          "category": "固态硬盘",
+          "model": "SN850X 1TB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=WD%20SN850X",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[SN850X 1TB]",
+          "offers": []
+        },
+        {
+          "id": "ssd_金士顿_nv3_1tb_smzdm",
+          "category": "固态硬盘",
+          "model": "NV3 1TB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E9%87%91%E5%A3%AB%E9%A1%BFNV3",
+          "price": 1090.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 金士顿 SSD固态硬盘 M.2 NVMe PCIe 4.0×4 NV3 1 @京东",
+          "offers": [
+            {
+              "price": 1090.0,
+              "shop": "京东",
+              "time": "07-20 10:17",
+              "title": "好价 金士顿 SSD固态硬盘 M.2 NVMe PCIe 4.0×4 NV3 1TB "
+            }
+          ]
+        },
+        {
+          "id": "ssd_致态_tiplus7100s_1tb_smzdm",
+          "category": "固态硬盘",
+          "model": "TiPlus7100s 1TB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E8%87%B4%E6%80%81TiPlus7100s",
+          "price": 1199.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 致态 TiPlus7100s 1TB NVMe M.2固态硬盘  @京东",
+          "offers": [
+            {
+              "price": 1199.0,
+              "shop": "京东",
+              "time": "07-21 00:55",
+              "title": "好价 致态 TiPlus7100s 1TB NVMe M.2固态硬盘 "
+            },
+            {
+              "price": 729.0,
+              "shop": "天猫精选",
+              "time": "09-07 15:18",
+              "title": "好价 技嘉 宏碁 GM7 致态Tiplus7100s 1TB 2TB 佰维 光威 M.2 NVMe 固态硬盘 "
+            }
+          ]
+        },
+        {
+          "id": "hdd_希捷_酷鹰_4tb_st4000vx015_smzdm",
+          "category": "机械硬盘",
+          "model": "酷鹰 4TB ST4000VX015",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%B8%8C%E6%8D%B7%E9%85%B7%E9%B9%B04TB",
+          "price": 1198.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 希捷 授权国行酷鹰系列4T6T8T企业级监控机械盘硬盘海康大华专用序列号可 @京东",
+          "offers": [
+            {
+              "price": 1198.0,
+              "shop": "京东",
+              "time": "09-16 14:45",
+              "title": "好价 希捷 授权国行酷鹰系列4T6T8T企业级监控机械盘硬盘海康大华专用序列号可查顺丰发出 4TB st4000vx01"
+            }
+          ]
+        },
+        {
+          "id": "hdd_西部数据_蓝盘_4tb_wd40ezax_smzdm",
+          "category": "机械硬盘",
+          "model": "蓝盘 4TB WD40EZAX",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E8%A5%BF%E6%95%B0%E8%93%9D%E7%9B%984TB",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[蓝盘 4TB WD40EZAX]",
+          "offers": []
+        },
+        {
+          "id": "hdd_希捷_酷鱼_4tb_st4000dm004_smzdm",
+          "category": "机械硬盘",
+          "model": "酷鱼 4TB ST4000DM004",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%B8%8C%E6%8D%B7%E9%85%B7%E9%B1%BC4TB",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[酷鱼 4TB ST4000DM004]",
+          "offers": []
+        },
+        {
+          "id": "psu_海韵_focus_gx_750_smzdm",
+          "category": "电源",
+          "model": "FOCUS GX-750",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E6%B5%B7%E9%9F%B5GX750",
+          "price": 641.61,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 PLUS会员：Seasonic 海韵 FOCUS GX750W电源 ATX @京东",
+          "offers": [
+            {
+              "price": 641.61,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 PLUS会员：Seasonic 海韵 FOCUS GX750W电源 ATX3金牌全模 全日系电容 压纹线 原生12"
+            },
+            {
+              "price": 518.99,
+              "shop": "天猫精选",
+              "time": null,
+              "title": "好价 海韵 FOCUS GX750W电源850W金牌全模组1000W台式CORE电脑电源650W "
+            },
+            {
+              "price": 899.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 Seasonic 海韵 FOCUS GX-750 金牌（90%）全模组ATX电源 750W 白色 "
+            },
+            {
+              "price": 899.0,
+              "shop": "",
+              "time": "08-21 08:11",
+              "title": "文章 大量海韵Focus GX-750涌入闲鱼，280块全新包邮，金牌全模组750W 硬核捡漏 最近闲鱼上海韵Focus"
+            },
+            {
+              "price": 592.03,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 PLUS会员：Seasonic 海韵 FOCUS GX-750 金牌 (90%) 全模组ATX电源 750W "
+            }
+          ]
+        },
+        {
+          "id": "psu_长城_x7_750w_atx3_1_smzdm",
+          "category": "电源",
+          "model": "X7 750W ATX3.1",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E9%95%BF%E5%9F%8EX7%20750W",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[X7 750W ATX3.1]",
+          "offers": []
+        },
+        {
+          "id": "psu_安钛克_ne750_金牌全模组_smzdm",
+          "category": "电源",
+          "model": "NE750 金牌全模组",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%AE%89%E9%92%9B%E5%85%8BNE750",
+          "price": 469.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色  @京东",
+          "offers": [
+            {
+              "price": 469.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
+            },
+            {
+              "price": 539.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 移动端：Antec 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
+            },
+            {
+              "price": 499.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 Antec 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
+            },
+            {
+              "price": 539.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 移动端：Antec 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
+            },
+            {
+              "price": 459.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 Antec 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
+            },
+            {
+              "price": 377.01,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
+            },
+            {
+              "price": 469.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE750 金牌（90%）全模组ATX电源 750W 黑色 "
+            }
+          ]
+        },
+        {
+          "id": "psu_安钛克_ne850_纯白色金牌全模_smzdm",
+          "category": "电源",
+          "model": "NE850 纯白色金牌全模",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%AE%89%E9%92%9B%E5%85%8BNE850",
+          "price": 496.36,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 安钛克 NE850 金牌（90%）全模组ATX电源 850W 黑白  @京东",
+          "offers": [
+            {
+              "price": 496.36,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE850 金牌（90%）全模组ATX电源 850W 黑白 "
+            },
+            {
+              "price": 529.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE850 金牌（90%）全模组ATX电源 850W 黑白 "
+            },
+            {
+              "price": 529.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE850 金牌（90%）全模组ATX电源 850W 黑白 "
+            },
+            {
+              "price": 529.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE850 金牌（90%）全模组ATX电源 850W 黑白 "
+            },
+            {
+              "price": 529.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE850 金牌（90%）全模组ATX电源 850W 黑白 "
+            },
+            {
+              "price": 529.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE850 金牌（90%）全模组ATX电源 850W 黑白 "
+            },
+            {
+              "price": 529.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 安钛克 NE850 金牌（90%）全模组ATX电源 850W 黑白 "
+            }
+          ]
+        },
+        {
+          "id": "psu_利民_tr_sg750_atx3_1_smzdm",
+          "category": "电源",
+          "model": "TR-SG750 ATX3.1",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%88%A9%E6%B0%91SG750",
+          "price": 302.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 利民 额定750W TR-SG750 ATX3.1电源 金牌全模组电源 P @京东",
+          "offers": [
+            {
+              "price": 302.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 利民 额定750W TR-SG750 ATX3.1电源 金牌全模组电源 PCIE5.1 全日系电解电容 电脑电源 "
+            },
+            {
+              "price": 322.2,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 利民 额定750W TR-SG750 ATX3.1电源 金牌全模组电源 PCIE5.1 全日系电解电容 电脑电源 "
+            },
+            {
+              "price": 357.11,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 利民 额定750W TR-SG750 ATX3.1电源 金牌全模组电源 PCIE5.1 全日系电解电容 电脑电源 "
+            },
+            {
+              "price": 389.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 利民 额定750W TR-SG750 ATX3.1电源 金牌全模组电源 PCIE5.1 全日系电解电容 电脑电源 "
+            },
+            {
+              "price": 358.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 利民 额定750W TR-SG750 ATX3.1电源 金牌全模组电源 PCIE5.1 全日系电解电容 电脑电源 "
+            }
+          ]
+        },
+        {
+          "id": "psu_华硕_prime_750g_金牌全模组_smzdm",
+          "category": "电源",
+          "model": "PRIME 750G 金牌全模组",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%8D%8E%E7%A1%95PRIME%20750G",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[PRIME 750G 金牌全模组]",
+          "offers": []
+        },
+        {
+          "id": "case_航嘉_s960_暴风雪x_白色_smzdm",
+          "category": "机箱",
+          "model": "S960 暴风雪X 白色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E8%88%AA%E5%98%89S960%E7%99%BD%E8%89%B2",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[S960 暴风雪X 白色]",
+          "offers": []
+        },
+        {
+          "id": "case_先马_趣造2_air_黑色_smzdm",
+          "category": "机箱",
+          "model": "趣造2 Air 黑色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%85%88%E9%A9%AC%E8%B6%A3%E9%80%A02Air",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[趣造2 Air 黑色]",
+          "offers": []
+        },
+        {
+          "id": "cooler_利民_pa120_se_argb_smzdm",
+          "category": "CPU散热器",
+          "model": "PA120 SE ARGB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%88%A9%E6%B0%91PA120",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[PA120 SE ARGB]",
+          "offers": []
+        },
+        {
+          "id": "cooler_九州风神_冰堡垒360_数显版_smzdm",
+          "category": "CPU散热器",
+          "model": "冰堡垒360 数显版",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E4%B9%9D%E5%B7%9E%E9%A3%8E%E7%A5%9E%E5%86%B0%E5%A0%A1%E5%9E%92360",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[冰堡垒360 数显版]",
+          "offers": []
+        },
+        {
+          "id": "cooler_瓦尔基里_c360_rgb_smzdm",
+          "category": "CPU散热器",
+          "model": "C360-RGB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E7%93%A6%E5%B0%94%E5%9F%BA%E9%87%8CC360",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[C360-RGB]",
+          "offers": []
+        },
+        {
+          "id": "cooler_瓦尔基里_gl360_smzdm",
+          "category": "CPU散热器",
+          "model": "GL360",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E7%93%A6%E5%B0%94%E5%9F%BA%E9%87%8CGL360",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[GL360]",
+          "offers": []
+        },
+        {
+          "id": "cooler_瓦尔基里_c360w_rgb_白色_smzdm",
+          "category": "CPU散热器",
+          "model": "C360W-RGB 白色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E7%93%A6%E5%B0%94%E5%9F%BA%E9%87%8CC360%E7%99%BD%E8%89%B2",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[C360W-RGB 白色]",
+          "offers": []
+        },
+        {
+          "id": "fan_利民_tl_c12c_smzdm",
+          "category": "机箱风扇",
+          "model": "TL-C12C",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%88%A9%E6%B0%91TL-C12C",
+          "price": 45.9,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 利民 TL-C12C 120mm 机箱散热风扇 3个装  @京东",
+          "offers": [
+            {
+              "price": 45.9,
+              "shop": "京东",
+              "time": "09-03 11:47",
+              "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
+            },
+            {
+              "price": 63.9,
+              "shop": "京东",
+              "time": "07-13 00:00",
+              "title": "好价 利民 TL-C12CW-S ARGB 120mm 机箱散热风扇 白色 3个装 "
+            },
+            {
+              "price": 79.9,
+              "shop": "京东",
+              "time": "09-22 12:32",
+              "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
+            },
+            {
+              "price": 45.9,
+              "shop": "京东",
+              "time": "09-06 12:52",
+              "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
+            },
+            {
+              "price": 45.9,
+              "shop": "京东",
+              "time": "07-12 23:59",
+              "title": "好价 利民 TL-C12C 120mm 机箱散热风扇 3个装 "
+            }
+          ]
+        },
+        {
+          "id": "fan_猫头鹰_nf_a12x25_pwm_smzdm",
+          "category": "机箱风扇",
+          "model": "NF-A12x25 PWM",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E7%8C%AB%E5%A4%B4%E9%B9%B0NF-A12x25",
+          "price": 180.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 noctua 猫头鹰 NF-A12x25 PWM 120mm 机箱散热风扇 @天猫精选",
+          "offers": [
+            {
+              "price": 180.0,
+              "shop": "天猫精选",
+              "time": null,
+              "title": "好价 noctua 猫头鹰 NF-A12x25 PWM 120mm 机箱散热风扇 "
+            },
+            {
+              "price": 169.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 noctua 猫头鹰 NF-A12x25 PWM 12cm风扇（智能温控/4针冷排风扇/水冷排散热风扇 2000 "
+            },
+            {
+              "price": 169.0,
+              "shop": "京东",
+              "time": null,
+              "title": "好价 noctua 猫头鹰 NF-A12x25 PWM 12cm风扇（智能温控/4针冷排风扇/水冷排散热风扇 2000 "
+            }
+          ]
+        },
+        {
+          "id": "fan_联力_积木风扇_sl120_3b_黑色_smzdm",
+          "category": "机箱风扇",
+          "model": "积木风扇 SL120-3B 黑色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E8%81%94%E5%8A%9B%E7%A7%AF%E6%9C%A8%E9%A3%8E%E6%89%87SL120",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[积木风扇 SL120-3B 黑色]",
+          "offers": []
+        },
+        {
+          "id": "fan_利民_tl_p12_s_argb_smzdm",
+          "category": "机箱风扇",
+          "model": "TL-P12-S ARGB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%88%A9%E6%B0%91TL-P12-S",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[TL-P12-S ARGB]",
+          "offers": []
+        },
+        {
+          "id": "fan_联力_积木风扇三代无线版_黑色_smzdm",
+          "category": "机箱风扇",
+          "model": "积木风扇三代无线版 黑色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E8%81%94%E5%8A%9B%E7%A7%AF%E6%9C%A8%E9%A3%8E%E6%89%87%E4%B8%89%E4%BB%A3",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[积木风扇三代无线版 黑色]",
+          "offers": []
+        },
+        {
+          "id": "monitor_戴尔_u2723qe_27英寸_4k_smzdm",
+          "category": "显示器",
+          "model": "U2723QE 27英寸 4K",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E6%88%B4%E5%B0%94U2723QE",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[U2723QE 27英寸 4K]",
+          "offers": []
+        },
+        {
+          "id": "monitor_aoc_q27g40e_ws_27英寸_2k_180hz_smzdm",
+          "category": "显示器",
+          "model": "Q27G40E/WS 27英寸 2K 180Hz",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=AOC%20Q27G40E",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[Q27G40E/WS 27英寸 2K 180Hz]",
+          "offers": []
+        },
+        {
+          "id": "monitor_微星_pro_max_271qphw_e14_27英寸_2k_smzdm",
+          "category": "显示器",
+          "model": "PRO MAX 271QPHW E14 27英寸 2K",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%BE%AE%E6%98%9FPRO%20MAX%20271QPHW",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[PRO MAX 271QPHW E14 27英寸 2K]",
+          "offers": []
+        },
+        {
+          "id": "monitor_飞利浦_evnia_27m2n6550pf_27英寸_woled_smzdm",
+          "category": "显示器",
+          "model": "EVNIA 27M2N6550PF 27英寸 WOLED",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E9%A3%9E%E5%88%A9%E6%B5%A627M2N6550PF",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[EVNIA 27M2N6550PF 27英寸 WOLED]",
+          "offers": []
+        },
+        {
+          "id": "mouse_罗技_g502_hero_主宰者_smzdm",
+          "category": "鼠标",
+          "model": "G502 HERO 主宰者",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E7%BD%97%E6%8A%80G502",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[G502 HERO 主宰者]",
+          "offers": []
+        },
+        {
+          "id": "mouse_雷蛇_毒蝰v2_pro_专业版_smzdm",
+          "category": "鼠标",
+          "model": "毒蝰V2 Pro 专业版",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E9%9B%B7%E8%9B%87%E6%AF%92%E8%9D%B0V2Pro",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[毒蝰V2 Pro 专业版]",
+          "offers": []
+        },
+        {
+          "id": "mouse_罗技_g_pro_x_superlight_二代_黑色_smzdm",
+          "category": "鼠标",
+          "model": "G PRO X SUPERLIGHT 二代 黑色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E7%BD%97%E6%8A%80GPW%E4%BA%8C%E4%BB%A3",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[G PRO X SUPERLIGHT 二代 黑色]",
+          "offers": []
+        },
+        {
+          "id": "mouse_罗技_g304_白色_smzdm",
+          "category": "鼠标",
+          "model": "G304 白色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E7%BD%97%E6%8A%80G304",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[G304 白色]",
+          "offers": []
+        },
+        {
+          "id": "mouse_达尔优_a900_白色_smzdm",
+          "category": "鼠标",
+          "model": "A900 白色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E8%BE%BE%E5%B0%94%E4%BC%98A900",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[A900 白色]",
+          "offers": []
+        },
+        {
+          "id": "ram_金士顿_fury_64gb_32gx2__ddr5_6000_超级野兽_白色_smzdm",
+          "category": "内存",
+          "model": "FURY 64GB(32Gx2) DDR5 6000 超级野兽 白色",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E9%87%91%E5%A3%AB%E9%A1%BFFURY%20DDR5%206000%2032Gx2",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[FURY 64GB(32Gx2) DDR5 6000 超级野兽 白色]",
+          "offers": []
+        },
+        {
+          "id": "ram_威刚_xpg_龙耀_64g_32gx2__ddr5_6400_d500g_smzdm",
+          "category": "内存",
+          "model": "XPG 龙耀 64G(32Gx2) DDR5 6400 D500G",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%A8%81%E5%88%9AXPG%E9%BE%99%E8%80%80DDR5%206400",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[XPG 龙耀 64G(32Gx2) DDR5 6400 D500G]",
+          "offers": []
+        },
+        {
+          "id": "hdd_东芝_p300_3tb_hdwd130_smzdm",
+          "category": "机械硬盘",
+          "model": "P300 3TB HDWD130",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E4%B8%9C%E8%8A%9DP300%203TB",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[P300 3TB HDWD130]",
+          "offers": []
+        },
+        {
+          "id": "hdd_希捷_酷狼pro_4tb_st4000nt001_smzdm",
+          "category": "机械硬盘",
+          "model": "酷狼PRO 4TB ST4000NT001",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E5%B8%8C%E6%8D%B7%E9%85%B7%E7%8B%BCPRO%204TB",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[酷狼PRO 4TB ST4000NT001]",
+          "offers": []
+        },
+        {
+          "id": "mb_技嘉_b760m_aorus_elite_ax_小雕_ddr5_smzdm",
+          "category": "主板",
+          "model": "B760M AORUS ELITE AX 小雕 DDR5",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=%E6%8A%80%E5%98%89B760M%E5%B0%8F%E9%9B%95",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[B760M AORUS ELITE AX 小雕 DDR5]",
+          "offers": []
+        },
+        {
+          "id": "monitor_ktc_h27v22_27英寸_2k_165hz_smzdm",
+          "category": "显示器",
+          "model": "H27V22 27英寸 2K 165Hz",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=KTC%20H27V22",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[H27V22 27英寸 2K 165Hz]",
+          "offers": []
+        },
+        {
+          "id": "keyboard_rk_r98_三模_烟雨轴v2_火蓝_smzdm",
+          "category": "键盘",
+          "model": "R98 三模 烟雨轴V2 火蓝",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=RK%20R98",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[R98 三模 烟雨轴V2 火蓝]",
+          "offers": []
+        },
+        {
+          "id": "CPU_AMD_r7_9800x3d_smzdm",
+          "category": "CPU",
+          "model": "R7 9800X3D",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=R7%209800X3D",
+          "price": 2879.1,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 AMD 锐龙R7-9800X3D CPU 4.7GHz 8核16线程  @京东",
+          "offers": [
+            {
+              "price": 2879.1,
+              "shop": "京东",
+              "time": "06-28 03:10",
+              "title": "好价 AMD 锐龙R7-9800X3D CPU 4.7GHz 8核16线程 "
+            }
+          ]
+        },
+        {
+          "id": "CPU_AMD_r9_9950x3d_smzdm",
+          "category": "CPU",
+          "model": "R9 9950X3D",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=R9%209950X3D",
+          "price": 4779.0,
+          "price_label": "到手价",
+          "original_price": null,
+          "status": "success",
+          "note": "SMZDM匹配: 好价 AMD 锐龙R9-9950X3D CPU 4.3GHz 16核32线程  @京东",
+          "offers": [
+            {
+              "price": 4779.0,
+              "shop": "京东",
+              "time": "08-18 14:29",
+              "title": "好价 AMD 锐龙R9-9950X3D CPU 4.3GHz 16核32线程 "
+            }
+          ]
+        },
+        {
+          "id": "CPU_Intel_core_ultra_285k_smzdm",
+          "category": "CPU",
+          "model": "Core Ultra 285K",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=Core%20Ultra%20285K",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[Core Ultra 285K]",
+          "offers": []
+        },
+        {
+          "id": "显卡_NVIDIA_rtx_5090_32g_smzdm",
+          "category": "显卡",
+          "model": "RTX 5090 32G",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=RTX%205090%2032G",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[RTX 5090 32G]",
+          "offers": []
+        },
+        {
+          "id": "显卡_AMD_rx_9070xt_16g_smzdm",
+          "category": "显卡",
+          "model": "RX 9070XT 16G",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=RX%209070XT%2016G",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[RX 9070XT 16G]",
+          "offers": []
+        },
+        {
+          "id": "固态硬盘_Samsung_990_pro_2tb_smzdm",
+          "category": "固态硬盘",
+          "model": "990 PRO 2TB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=990%20PRO%202TB",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[990 PRO 2TB]",
+          "offers": []
+        },
+        {
+          "id": "固态硬盘_致态_tipro9000_2tb_smzdm",
+          "category": "固态硬盘",
+          "model": "TiPro9000 2TB",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=TiPro9000%202TB",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[TiPro9000 2TB]",
+          "offers": []
+        },
+        {
+          "id": "主板_ASUS_tuf_gaming_x870-plus_wifi_smzdm",
+          "category": "主板",
+          "model": "TUF GAMING X870-PLUS WIFI",
+          "platform": "什么值得买",
+          "url": "https://search.smzdm.com/?c=home&s=TUF%20GAMING%20X870-PLUS%20WIFI",
+          "price": null,
+          "price_label": null,
+          "original_price": null,
+          "status": "failed",
+          "note": "SMZDM未匹配到型号[TUF GAMING X870-PLUS WIFI]",
+          "offers": []
+        }
+      ]
     }
   ],
-  "generated_at": "2026-09-21T10:49:16.580817+08:00"
+  "generated_at": "2026-09-23T11:19:19.708741+08:00"
 };
